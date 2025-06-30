@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* 
+----------------styling for the topnav--------------  
+*/
+
+.topbar {
+    height: 40px;
+    background-color: #1d3557;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.topbar > .location > ul > li {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.topbar > .location > ul > li > i {
+    color: #e63946;
+}
+.topbar > .media-icons > ul {
+    display: flex;
+    gap: 15px;
+}
+.topbar > .media-icons > ul > li > a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    :hover {
+        color: #e63946;
+    }
+}
