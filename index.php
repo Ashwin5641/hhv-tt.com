@@ -37,8 +37,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
-    <!-- --------------links for the icons----------------------->
+    <!-- --------------link for the font aweseome----------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- --------------link for the google icons-------------------- -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
 
     <!-- link for the AOS animations on scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -48,6 +51,56 @@
 
 </head>
 <body>
-     <?php include './topbar.php'; ?> 
+     <?php include './topbar.php'; ?>
+     <?php include './navbar.php'; ?>
+
+
+    <!-- script for handling the sidebar of mobile and tab screens -->
+    <script>
+
+        // function for hamburger and cross icon
+
+        const hamburger = document.querySelector('.sidebar-hamburger');
+        const defaultmenuItems = document.querySelector('.sidebar-menu-items');
+        const xmark = document.querySelector('.sidebar-xmark');
+
+        defaultmenuItems.style.display = "none";
+        xmark.style.display = "none";
+
+        hamburger.addEventListener("click", () => {
+            defaultmenuItems.style.display = "block";
+            hamburger.style.display = "none";
+            xmark.style.display = "block";
+        });
+
+        xmark.addEventListener("click", () => {
+            defaultmenuItems.style.display = "none";
+            hamburger.style.display = "block";
+            xmark.style.display = "none";
+        });
+
+
+        // function for the products and products lists
+        const productsPlus = document.querySelector('.products-plus');
+        const productsCross = document.querySelector('.products-cross');
+        const defaultProductsList = document.querySelector('.sidebar-products-list');
+
+        defaultProductsList.style.display = "none";
+        productsCross.style.display = "none";
+
+        productsPlus.addEventListener("click", () => {
+            defaultProductsList.style.display = "block";
+            productsPlus.style.display = "none";
+            productsCross.style.display = "block";
+        });
+
+        productsCross.addEventListener("click", () => {
+            defaultProductsList.style.display = "none";
+            productsPlus.style.display = "block";
+            productsCross.style.display = "none";
+        });
+
+    </script> 
+
 </body>
 </html>
