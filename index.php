@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="section-image">
-                <img src="./assets/" alt="">
+                <img src="./assets/images/index-first-section/first-section-image.png" alt="">
             </div>
         </div>
     </div>
