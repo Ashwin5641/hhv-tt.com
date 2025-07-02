@@ -51,9 +51,34 @@
 
 </head>
 <body>
-     <?php include './topbar.php'; ?>
-     <?php include './navbar.php'; ?>
+    <?php include './topbar.php'; ?>
+    <?php include './navbar.php'; ?>
 
+
+    <div class="first-section">
+        <div>
+            <div class="section-content">
+                <div class="title-and-button">
+                    <h1>India's Premier Thermal Vacuum Technology Group</h1>
+                    <p>Vacuum Technology, Vacuum Furnaces and Carbon Composites</p>
+                    <a href="#">Explore More</a>
+                </div>
+                <div class="reviews-section">
+                    <div class="google-review">
+                        <img src="./assets/images/index-first-section/google-icon1.png" alt="icon">
+                        <p>4.8 From 799+ reviews</p>
+                    </div>
+                    <div class="completed-projects">
+                        <img src="./assets/images/index-first-section/completed-projects.png" alt="">
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-image">
+                <img src="./assets/" alt="">
+            </div>
+        </div>
+    </div>
 
     <!-- script for handling the sidebar of mobile and tab screens -->
     <script src="./navbar-sidebar.js"></script>
