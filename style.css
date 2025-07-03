@@ -155,12 +155,12 @@ body {
 
 /* resposive design for the navbar of mobile and tab screens */
 
-@media (min-width: 320px) and (max-width: 990px) {
+@media (min-width: 320px) and (max-width: 989px) {
     .navbar {
         display: none;
     }
 }
-@media (min-width: 991px) and (max-width: 1200px) {
+@media (min-width: 990px) and (max-width: 1200px) {
     .navbar {
         padding: 0 30px;
     }
@@ -277,23 +277,27 @@ body {
         top: 11.5%;
     }
 }
-
+@media (min-width: 401px) and (max-width: 500px) {
+    .sidebar > .sidebar-menu-items {
+        top: 11.5%;
+    }
+}
 
 /* 
 ---------------------styling for the fisrt section---------------------- 
 */
 .first-section {
     overflow: hidden;
+    padding: 0px 60px;
 }
 .first-section > div {
     height: 650px;
     background-color: #000d27;
-    margin: 0px 60px;
     box-shadow: -4px 0 12px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     position: relative;
     display: flex;
-    padding: 50px 50px 100px;
+    padding: 50px 50px;
     gap: 20px;
     overflow: hidden;
 }
@@ -363,7 +367,7 @@ body {
     z-index: -1;
     transition: height 0.5s ease-in-out, width 0.5s ease-in-out;
     background-color: white;
-    color: #000d27
+    color: #000d27;
 }
 .first-section > div > .section-content > .title-and-button > a::before {
     top: 0;
@@ -394,20 +398,122 @@ body {
     height: 40px;
 }
 .first-section > div > .section-image > img {
-    background-size: cover;
-    height: 350px;
-    width: 500px;
-    clip-path: polygon(0% 70px,70px 0%,100% 0%,100% 100%,0% 100%);
+    height: 650px;
 }
+.text-slide {
+    overflow: hidden;
+}
+.text-slide span {
+    transform: translateY(20px);
+    white-space: nowrap;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+}
+
+
 
 /* responsive design for first section of mobile and tabs screens  */
-@media (max-width: 1300px) {
+
+@media (min-width: 320px) and (max-width: 500px) {
     .first-section {
+        padding: 0;
+    }
+    .first-section > div {
         height: auto;
+        padding: 40px 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section > div > .section-content {
         width: 100%;
     }
+    .first-section > div > .section-content > .title-and-button > h1 {
+        font-size: clamp(28px, 10vw, 32px);
+    }
+    .first-section > div > .section-content > .reviews-section > .google-review > img {
+        height: 30px;
+    }
+    .first-section > div > .section-content > .reviews-section > .completed-projects > img {
+        height: 30px;
+    }
+    .first-section > div > .section-image {
+        width: 100%;
+    }
+    .first-section > div > .section-image > img {
+        height: auto;
+    }
 }
-
+@media (min-width: 501px) and (max-width: 700px) {
+    .first-section {
+        padding: 0;
+    }
+    .first-section > div {
+        height: auto;
+        padding: 40px 20px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section > div > .section-content {
+        width: 100%;
+    }
+    .first-section > div > .section-image {
+        width: 100%;
+    }
+    .first-section > div > .section-image > img {
+        height: auto;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .first-section {
+        padding: 0;
+    }
+    .first-section > div {
+        height: auto;
+        padding: 40px 30px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section > div > .section-content {
+        width: 100%;
+    }
+    .first-section > div > .section-image {
+        width: 100%;
+    }
+    .first-section > div > .section-image > img {
+        height: auto;
+    }
+}
+@media (min-width: 901px) and (max-width: 988px) {
+    .first-section {
+        padding: 0;
+    }
+    .first-section > div {
+        padding: 50px 10px 0px;
+        height: auto;
+    }
+    .first-section > div > .section-content > .title-and-button > h1 {
+        font-size: clamp(34px, 10vw, 38px);
+    }
+    .first-section > div > .section-image > img {
+        height: auto;
+        min-width: 500px;
+    }
+}
+@media (min-width: 989px) and (max-width: 1200px) {
+    .first-section {
+        padding: 0;
+    };
+    .first-section > div {
+        padding: 50px 10px 0px;
+    }
+    .first-section > div > .section-content > .title-and-button > h1 {
+        font-size: clamp(34px, 10vw, 38px);
+    }
+    .first-section > div > .section-image > img {
+        height: auto;
+        min-height: 600px;
+    }
+}
 
 
 

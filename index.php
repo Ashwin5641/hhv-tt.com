@@ -40,27 +40,29 @@
     <!-- --------------link for the font aweseome----------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- --------------link for the google icons-------------------- -->
+    <!-- --------------link for the google icons--------------------- -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
 
-    <!-- link for the AOS animations on scroll -->
+    <!-- ---------link for the AOS animations on scroll-------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- swiper.js cdn link for the products carousel -->
+    <!-- -------swiper.js cdn link for the products carousel--------- -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+
+
 
 </head>
 <body>
     <?php include './topbar.php'; ?>
     <?php include './navbar.php'; ?>
 
-
+    <!-- -------------start for the first section----------- -->
     <div class="first-section">
         <div>
             <div class="section-content">
                 <div class="title-and-button">
-                    <h1>India's Premier Thermal Vacuum Technology Group</h1>
-                    <p>Vacuum Technology, Vacuum Furnaces and Carbon Composites</p>
+                    <h1 class="text-slide">India's Premier Thermal Vacuum Technology Group</h1>
+                    <p class="text-slide">Vacuum Technology, Vacuum Furnaces and Carbon Composites</p>
                     <a href="#">Explore More</a>
                 </div>
                 <div class="reviews-section">
@@ -75,13 +77,40 @@
                 </div>
             </div>
             <div class="section-image">
-                <img src="./assets/images/index-first-section/first-section-image.png" alt="">
+                <img src="./assets/images/index-first-section/hero-image.png" alt="">
             </div>
         </div>
     </div>
 
+
+    <!-- ------------start of the company introduction container------------ -->
+    
+
+
+
+
     <!-- script for handling the sidebar of mobile and tab screens -->
     <script src="./navbar-sidebar.js"></script>
+
+    <!-- gsap link for the animations for texts and container  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const containers = document.querySelectorAll(".text-slide");
+
+        containers.forEach(container => {
+            const words = container.textContent.trim().split(" ");
+            container.innerHTML = words.map(word => `<span>${word}</span>`).join(" ");
+        });
+
+        gsap.to(".text-slide span", {
+            opacity: 1,
+            y: 0,
+            duration: 0.6,
+            stagger: 0.25,
+            ease: "power2.out"
+        });
+    </script>
+
 
 </body>
 </html>
