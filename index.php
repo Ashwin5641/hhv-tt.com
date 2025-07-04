@@ -128,7 +128,7 @@
                         <h3>Research & Custom Solutions</h3>
                     </div>
                     <div class="card-back">
-                         <p>Tailored vacuum and thermal tech innovations for R&D and industrial applications.</p>
+                        <p>Tailored vacuum and thermal tech innovations for R&D and industrial applications.</p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,19 @@
 
 
     <!-- ------------start of the company introduction container------------ -->
+    <div class="company-intro">
+        <div class="intro-images">
+            <div class="intro-image1">
 
+            </div>
+            <div class="intro-image2">
+
+            </div>
+        </div>
+        <div class="intro-content">
+
+        </div>
+    </div>
 
 
 

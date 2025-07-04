@@ -520,7 +520,9 @@ body {
 }
 
 
-/* ---------------styling fro the fisrt cards----------------- */
+/* 
+---------------styling fro the fisrt cards----------------- 
+*/
 
 .first-cards {
     height: 300px;
@@ -653,3 +655,42 @@ body {
         width: calc((100% - 60px) / 4);
     }
 }
+
+
+
+
+/* 
+--------------------styling for company introduction---------------------- 
+*/
+
+.company-intro {
+    height: 700px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+}
+.company-intro > .intro-images {
+    width: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.company-intro > .intro-images > .intro-image1 {
+    height: 500px;
+    width: 400px;
+    background-color: cadetblue;
+    position: absolute;
+}
+.company-intro > .intro-images > .intro-image2 {
+    height: 450px;
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    right: 10px;
+    top: 25%;
+}
+.company-intro > .intro-content {
+    width: 50%;
+}
+
+
