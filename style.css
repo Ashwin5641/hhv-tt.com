@@ -400,14 +400,18 @@ body {
 .first-section > div > .section-image > img {
     height: 650px;
 }
-.text-slide {
+
+/* gsap animations */
+.first-section-text-slide {
     overflow: hidden;
 }
-.text-slide span {
-    transform: translateY(20px);
+
+.first-section-text-slide span {
+    transform: translateX(10px);
     white-space: nowrap;
     transition: opacity 0.3s, transform 0.3s;
     opacity: 0;
+    display: inline-block;
 }
 
 
@@ -496,7 +500,7 @@ body {
     }
     .first-section > div > .section-image > img {
         height: auto;
-        min-width: 500px;
+        min-width: 540px;
     }
 }
 @media (min-width: 989px) and (max-width: 1200px) {
@@ -516,6 +520,71 @@ body {
 }
 
 
+/* ---------------styling fro the fisrt cards----------------- */
+
+.first-cards {
+    height: 300px;
+    width: 100%;
+    padding: 0 120px;
+}
+
+.first-cards > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+    gap: 20px;
+}
+
+.first-cards > div > .card {
+    height: 200px;
+    width: 300px;
+    background-color: #fefeff;
+    z-index: 100;
+    position: relative;
+    perspective: 1000px;
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.first-cards > div > .card > .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+}
+.first-cards > div > .card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+.first-cards > div > .card > .card-inner > .card-front,
+.first-cards > div > .card > .card-inner > .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-cards > div > .card > .card-inner > .card-back {
+    background: #e63946;
+    color: white;
+    transform: rotateY(180deg);
+}
+.first-cards > div > .card > .card-inner > .card-front {
+    color: #000d27;
+}
+.first-cards > div > .card > .card-inner > .card-front > i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #e63946;
+}
 
 
 
@@ -523,5 +592,64 @@ body {
 
 
 
-
-
+/* responsive design for the fisrt cards of mobile and tab screens */
+@media (min-width: 320px) and (max-width: 499px) {
+    .first-cards > div {
+        justify-content: center;
+    }
+    .first-cards {
+        padding: 0;
+    }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .first-cards {
+        padding: 0;
+    }
+    .first-cards > div {
+        gap: 20px;
+    }
+    .first-cards > div > .card {
+        width: calc((100% - 20px) / 2);
+    }
+}
+@media (min-width: 601px) and (max-width: 750px) {
+    .first-cards {
+        padding: 0 40px;
+    }
+    .first-cards > div {
+        gap: 20px;
+    }
+    .first-cards > div > .card {
+        width: calc((100% - 20px) / 2);
+    }
+}
+@media (min-width: 751px) and (max-width: 860px) {
+    .first-cards {
+        padding: 0 70px;
+    }
+    .first-cards > div {
+        gap: 20px;
+    }
+    .first-cards > div > .card {
+        width: calc((100% - 20px) / 2);
+    }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .first-cards {
+        padding: 0 10px;
+    }
+    .first-cards > div {
+        gap: 10px;
+    }
+    .first-cards > div > .card {
+        width: calc((100% - 30px) / 4);
+    }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .first-cards {
+        padding: 0 90px;
+    }
+    .first-cards > div > .card {
+        width: calc((100% - 60px) / 4);
+    }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,6 +53,7 @@
 
 
 </head>
+
 <body>
     <?php include './topbar.php'; ?>
     <?php include './navbar.php'; ?>
@@ -61,8 +63,8 @@
         <div>
             <div class="section-content">
                 <div class="title-and-button">
-                    <h1 class="text-slide">India's Premier Thermal Vacuum Technology Group</h1>
-                    <p class="text-slide">Vacuum Technology, Vacuum Furnaces and Carbon Composites</p>
+                    <h1 class="first-section-text-slide">India's Premier Thermal Vacuum Technology Group</h1>
+                    <p class="first-section-text-slide">Vacuum Technology, Vacuum Furnaces and Carbon Composites</p>
                     <a href="#">Explore More</a>
                 </div>
                 <div class="reviews-section">
@@ -83,8 +85,59 @@
     </div>
 
 
+    <!-- ------------start of the first cards container--------------------- -->
+    <div class="first-cards">
+        <div>
+            <div class="card first-card-fadein">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-fire-alt"></i>
+                        <h3>Thermal Processing</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Precision thermal solutions for sintering, brazing, and annealing across critical industries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card first-card-fadein">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Thin Film Coatings</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Advanced PVD systems for optical, decorative, and functional surface treatments.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card first-card-fadein">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-tools"></i>
+                        <h3>Maintenance & AMC</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Expert service contracts to ensure maximum uptime and equipment reliability.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card first-card-fadein">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-microscope"></i>
+                        <h3>Research & Custom Solutions</h3>
+                    </div>
+                    <div class="card-back">
+                         <p>Tailored vacuum and thermal tech innovations for R&D and industrial applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- ------------start of the company introduction container------------ -->
-    
+
 
 
 
@@ -93,24 +146,48 @@
     <script src="./navbar-sidebar.js"></script>
 
     <!-- gsap link for the animations for texts and container  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- script for first sectiona animation -->
     <script>
-        const containers = document.querySelectorAll(".text-slide");
+        window.addEventListener("DOMContentLoaded", () => {
+            const containers = document.querySelectorAll(".first-section-text-slide");
 
-        containers.forEach(container => {
-            const words = container.textContent.trim().split(" ");
-            container.innerHTML = words.map(word => `<span>${word}</span>`).join(" ");
+            containers.forEach(container => {
+                const words = container.textContent.trim().split(" ");
+                container.innerHTML = words
+                    .map(word => `<span>${word}&nbsp;</span>`)
+                    .join("");
+            });
+
+            gsap.to(".first-section-text-slide span", {
+                opacity: 1,
+                x: 0,
+                duration: 0.2,
+                stagger: 0.25,
+                ease: "power2.out"
+            });
         });
+    </script>
 
-        gsap.to(".text-slide span", {
-            opacity: 1,
-            y: 0,
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.from(".first-card-fadein", {
+            scrollTrigger: {
+                trigger: ".first-cards",
+                start: "top 80%",
+                toggleActions: "play none none none",
+            },
+            opacity: 0,
+            y: 50,
             duration: 0.6,
-            stagger: 0.25,
+            stagger: 0.2,
             ease: "power2.out"
         });
     </script>
 
-
 </body>
+
 </html>
