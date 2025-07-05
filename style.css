@@ -17,6 +17,7 @@ body {
     font-weight: 400;
     font-optical-sizing: auto;
     font-style: normal;
+    color: #000d27;
 }
 
 
@@ -600,12 +601,14 @@ body {
         justify-content: center;
     }
     .first-cards {
-        padding: 0;
+        padding: 0 0 50px;
+        height: auto;
     }
 }
 @media (min-width: 500px) and (max-width: 600px) {
     .first-cards {
-        padding: 0;
+        padding: 0 0 50px;
+        height: auto;
     }
     .first-cards > div {
         gap: 20px;
@@ -616,7 +619,8 @@ body {
 }
 @media (min-width: 601px) and (max-width: 750px) {
     .first-cards {
-        padding: 0 40px;
+        padding: 0 40px 50px;
+        height: auto;
     }
     .first-cards > div {
         gap: 20px;
@@ -627,7 +631,8 @@ body {
 }
 @media (min-width: 751px) and (max-width: 860px) {
     .first-cards {
-        padding: 0 70px;
+        padding: 0 70px 50px;
+        height: auto;
     }
     .first-cards > div {
         gap: 20px;
@@ -635,6 +640,19 @@ body {
     .first-cards > div > .card {
         width: calc((100% - 20px) / 2);
     }
+}
+@media (min-width: 861px) and (max-width: 999px) {
+    .first-cards {
+        padding: 0 60px 50px;
+        height: auto;
+    }
+    .first-cards > div {
+        gap: 20px;
+    }
+    .first-cards > div > .card {
+        width: calc((100% - 60px) / 2);
+    }
+    
 }
 @media (min-width: 1000px) and (max-width: 1200px) {
     .first-cards {
@@ -678,19 +696,87 @@ body {
 .company-intro > .intro-images > .intro-image1 {
     height: 500px;
     width: 400px;
-    background-color: cadetblue;
     position: absolute;
+    background-image: url(./assets/images/index-first-section/intro-image1.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 50px, 50px 0, 100% 0, 100% 100%, 0 100%);
 }
 .company-intro > .intro-images > .intro-image2 {
     height: 450px;
-    width: 400px;
-    background-color: aqua;
+    width: 350px;
+    background-image: url(./assets/images/index-first-section/intro-image2.jpg);
     position: absolute;
-    right: 10px;
-    top: 25%;
+    left: 260px;
+    top: 160px;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%);
+}
+.company-intro > .intro-images > .play-button > a > .circle > i {
+    color: white;
+    position: absolute;
+    top: 45px;
+    left: 450px;
+    background: #e63946;
+    padding: 40px;
+    border-radius: 50%;
+    font-size: 25px;
 }
 .company-intro > .intro-content {
     width: 50%;
 }
 
 
+/* responsive design for the company introduction of mobile and tab screens */
+@media (min-width: 320px) and (max-width: 500px) {
+    .company-intro {
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .company-intro > .intro-images {
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        min-height: 400px;
+    }
+    .company-intro > .intro-images > .play-button {
+        display: none;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        display: none;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .company-intro {
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .company-intro > .intro-images {
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        max-height: 400px;
+        max-width: 300px;
+        min-height: 400px;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        height: auto;
+        width: 100%;
+        min-height: 450px;
+        left: 200px;
+        min-height: 400px;
+        max-width: 280px;
+    }
+    .company-intro > .intro-images > .play-button > a > .circle > i {
+        left: 320px;
+    }
+}

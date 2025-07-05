@@ -139,15 +139,23 @@
     <!-- ------------start of the company introduction container------------ -->
     <div class="company-intro">
         <div class="intro-images">
-            <div class="intro-image1">
+            <div class="intro-image1 company-intro-images-fadein">
 
             </div>
-            <div class="intro-image2">
-
+            <div class="intro-image2 company-intro-images-fadein">
+                
+            </div>
+            <div class="play-button">
+                <a href="https://youtu.be/0sImUtr5-J4?si=LR7N6L9rxS7N73l6">
+                    <div class="circle">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="intro-content">
-
+            <p>ABOUT OUR COMPANY</p>
+            <h1>Trusted Global Supplier Of High-Quality Vacuum Furnaces</h1>
         </div>
     </div>
 
@@ -161,44 +169,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-    <!-- script for first sectiona animation -->
-    <script>
-        window.addEventListener("DOMContentLoaded", () => {
-            const containers = document.querySelectorAll(".first-section-text-slide");
-
-            containers.forEach(container => {
-                const words = container.textContent.trim().split(" ");
-                container.innerHTML = words
-                    .map(word => `<span>${word}&nbsp;</span>`)
-                    .join("");
-            });
-
-            gsap.to(".first-section-text-slide span", {
-                opacity: 1,
-                x: 0,
-                duration: 0.2,
-                stagger: 0.25,
-                ease: "power2.out"
-            });
-        });
-    </script>
-
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-
-        gsap.from(".first-card-fadein", {
-            scrollTrigger: {
-                trigger: ".first-cards",
-                start: "top 80%",
-                toggleActions: "play none none none",
-            },
-            opacity: 0,
-            y: 50,
-            duration: 0.6,
-            stagger: 0.2,
-            ease: "power2.out"
-        });
-    </script>
+    <!-- animation script for the conatiners and texts -->
+    <script src="./index-animation.js"></script>
 
 </body>
 
