@@ -696,22 +696,22 @@ body {
 .company-intro > .intro-images > .intro-image1 {
     height: 500px;
     width: 400px;
+    clip-path: polygon(0 50px, 50px 0, 100% 0, 100% 100%, 0 100%);
     position: absolute;
     background-image: url(./assets/images/index-first-section/intro-image1.jpg);
     background-size: cover;
     background-position: center;
-    clip-path: polygon(0 50px, 50px 0, 100% 0, 100% 100%, 0 100%);
 }
 .company-intro > .intro-images > .intro-image2 {
     height: 450px;
     width: 350px;
-    background-image: url(./assets/images/index-first-section/intro-image2.jpg);
     position: absolute;
     left: 260px;
     top: 160px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%);
+    background-image: url(./assets/images/index-first-section/intro-image2.jpg);
     background-size: cover;
     background-position: center;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%);
 }
 .company-intro > .intro-images > .play-button > a > .circle > i {
     color: white;
@@ -725,41 +725,143 @@ body {
 }
 .company-intro > .intro-content {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.company-intro > .intro-content > h4 {
+    font-weight: 500;
+    color: #e63946;
+}
+.company-intro > .intro-content > h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
+.company-intro > .intro-content > p {
+    text-align: justify;
+    font-size: 18px;
+}
+.company-intro > .intro-content > div > a {
+    background-color: #e63946;
+    color: white;
+    padding: 13px 30px;
+    position: absolute;
+    transition: color 0.5s ease-in-out;
+    z-index: 1;
+}
+.company-intro > .intro-content > div > a::before,
+.company-intro > .intro-content > div > a::after {
+    content: '';
+    height: 0;
+    width: 0;
+    transition: height 0.5s ease-in-out, width .5s ease-in-out;
+    position: absolute;
+    z-index: -1;
+    background-color: #000d27;
+}
+.company-intro > .intro-content > div > a::before {
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+}
+.company-intro > .intro-content > div > a::after {
+    top: 0;
+    right: 0;
+    transform-origin: top right;
+}
+.company-intro > .intro-content > div > a:hover:before,
+.company-intro > .intro-content > div > a:hover:after {
+    height: 100%;
+    width: 100%;
+}
+.intro-company-text-onebyone {
+    overflow: hidden;
+}
+.intro-company-text-onebyone span {
+    transform: translateX(10px);
+    white-space: nowrap;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    display: inline-block;
 }
 
 
 /* responsive design for the company introduction of mobile and tab screens */
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 400px) {
     .company-intro {
+        height: auto;
         flex-direction: column;
-        padding: 50px 10px;
+        align-items: center;
+        padding: 50px 10px 90px;
+        gap: 30px;
     }
     .company-intro > .intro-images {
         width: 100%;
-        height: 100%;
-        align-items: flex-start;
+        position: static;
+        justify-content: center;
+        display: flex;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        min-height: 350px;
+        position: static;
+        background-position: center;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        display: none;
+    }
+    .company-intro > .intro-images > .play-button {
+        display: none;
+    }
+    .company-intro > .intro-content {
+        width: 100%;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    .company-intro {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px 90px;
+        gap: 30px;
+    }
+    .company-intro > .intro-images {
+        width: 100%;
+        position: static;
+        justify-content: center;
+        display: flex;
     }
     .company-intro > .intro-images > .intro-image1 {
         height: auto;
         width: 100%;
         min-height: 400px;
+        position: static;
+        background-position: center;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        display: none;
     }
     .company-intro > .intro-images > .play-button {
         display: none;
     }
-    .company-intro > .intro-images > .intro-image2 {
-        display: none;
+    .company-intro > .intro-content {
+        width: 100%;
     }
 }
 @media (min-width: 501px) and (max-width: 700px) {
     .company-intro {
         flex-direction: column;
-        padding: 50px 10px;
+        padding: 50px 10px 90px;
+        height: auto;
     }
     .company-intro > .intro-images {
         width: 100%;
-        height: 100%;
+        height: auto;
         align-items: flex-start;
+        position: relative;
+        min-height: 600px;
     }
     .company-intro > .intro-images > .intro-image1 {
         height: auto;
@@ -771,7 +873,7 @@ body {
     .company-intro > .intro-images > .intro-image2 {
         height: auto;
         width: 100%;
-        min-height: 450px;
+        max-height: 450px;
         left: 200px;
         min-height: 400px;
         max-width: 280px;
@@ -779,4 +881,207 @@ body {
     .company-intro > .intro-images > .play-button > a > .circle > i {
         left: 320px;
     }
+    .company-intro > .intro-content {
+        width: 100%;
+    }
 }
+@media (min-width: 701px) and (max-width: 900px) {
+    .company-intro {
+        flex-direction: column;
+        padding: 50px 40px 90px;
+        height: auto;
+    }
+    .company-intro > .intro-images {
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        position: relative;
+        min-height: 600px;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        max-width: 380px;
+        min-height: 450px;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        height: auto;
+        width: 100%;
+        max-height: 450px;
+        left: 280px;
+        min-height: 400px;
+        max-width: 300px;
+    }
+    .company-intro > .intro-images > .play-button > a > .circle > i {
+        left: 400px;
+    }
+    .company-intro > .intro-content {
+        width: 100%;
+    }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+    .company-intro {
+        flex-direction: column;
+        padding: 50px 9vw 90px;
+        height: auto;
+    }
+    .company-intro > .intro-images {
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        position: relative;
+        min-height: 600px;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        max-width: 380px;
+        min-height: 450px;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        height: auto;
+        width: 100%;
+        max-height: 450px;
+        left: 280px;
+        min-height: 400px;
+        max-width: 350px;
+    }
+    .company-intro > .intro-images > .play-button > a > .circle > i {
+        left: 400px;
+    }
+    .company-intro > .intro-content {
+        width: 100%;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1350px) {
+    .company-intro {
+        padding: 50px 5vw 70px;
+        height: auto;
+    }
+    .company-intro > .intro-images {
+        height: auto;
+        align-items: flex-start;
+        position: relative;
+        min-height: 600px;
+        width: 60%;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        max-width: 380px;
+        min-height: 400px;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        height: auto;
+        width: 100%;
+        max-height: 450px;
+        left: 280px;
+        min-height: 400px;
+        max-width: 350px;
+    }
+    .company-intro > .intro-images > .play-button > a > .circle > i {
+        left: 400px;
+    }
+    .company-intro > .intro-content {
+        width: 40%;
+    }
+}
+@media (min-width: 1351px) {
+    .company-intro {
+        padding: 50px 6vw 70px;
+        height: auto;
+    }
+    .company-intro > .intro-images {
+        height: auto;
+        align-items: flex-start;
+        position: relative;
+        min-height: 600px;
+        width: 55%;
+    }
+    .company-intro > .intro-images > .intro-image1 {
+        height: auto;
+        width: 100%;
+        max-width: 380px;
+        min-height: 400px;
+    }
+    .company-intro > .intro-images > .intro-image2 {
+        height: auto;
+        width: 100%;
+        max-height: 450px;
+        left: 280px;
+        min-height: 400px;
+        max-width: 350px;
+    }
+    .company-intro > .intro-images > .play-button > a > .circle > i {
+        left: 400px;
+    }
+    .company-intro > .intro-content {
+        width: 45%;
+    }
+}
+
+/* 
+-------------------styling for the products container-------------------- 
+*/
+
+.products-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.products-container > .products-content {
+    width: 25%;
+    background-color: #000d27;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.products-container > .products-content > h1 {
+    color: white;
+}
+.products-container > .products-wrapper {
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+.products-container > .products-wrapper > .product-cards {
+    display: flex;
+    align-items: center;
+}
+.products-container > .products-wrapper > .product-cards > .card {
+    height: 400px;
+    width: 350px;
+    perspective: 1500px;
+}
+.products-container > .products-wrapper > .product-cards > .card > a > .inner-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+}
+.products-container > .products-wrapper > .product-cards > .card > a > .inner-card > .card-front,
+.products-container > .products-wrapper > .product-cards > .card > a > .inner-card > .card-back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.products-container > .products-wrapper > .product-cards > .card > a > .inner-card > .card-front {
+    background-color: white;
+    z-index: 2;
+}
+.products-container > .products-wrapper > .product-cards > .card > a > .inner-card > .card-back {
+    background-color: #e63946;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+.products-container > .products-wrapper > .product-cards > .card:hover .inner-card {
+    transform: rotateY(180deg);
+}
+
+

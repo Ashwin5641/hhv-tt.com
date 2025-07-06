@@ -143,7 +143,7 @@
 
             </div>
             <div class="intro-image2 company-intro-images-fadein">
-                
+
             </div>
             <div class="play-button">
                 <a href="https://youtu.be/0sImUtr5-J4?si=LR7N6L9rxS7N73l6">
@@ -154,24 +154,150 @@
             </div>
         </div>
         <div class="intro-content">
-            <p>ABOUT OUR COMPANY</p>
-            <h1>Trusted Global Supplier Of High-Quality Vacuum Furnaces</h1>
+            <h4 class="intro-company-text-fadein">ABOUT OUR COMPANY</h4>
+            <h1 class="intro-company-text-onebyone">Trusted Global Supplier Of High-Quality Vacuum Furnaces</h1>
+            <p>HHV Thermal Technologies Pvt. Ltd. is a HHV Group company with almost six decades of expertise in the design, development and manufacturing of specialized vacuum furnaces for Space, Aerospace, Astrophysics, Defence, Automotive and Metallurgy industries. HHVTT is an international supplier of high quality vacuum furnaces. Our full-fledged design centre has qualified and experienced designers with 3D designing facilities to design systems with international standards adhering to NADCAP standards and certified for CE.</p>
+            <div>
+                <a href="#">More About Us</a>
+            </div>
         </div>
     </div>
 
 
+    <!-- --------------------start of the products container------------------ -->
+    <div class="products-container">
+        <div class="products-content">
+            <h1>Our Products</h1>
+
+        </div>
+        <div class="products-wrapper swiper">
+            <div class="product-cards swiper-wrapper">
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide card">
+                    <a href="#">
+                        <div class="inner-card">
+                            <div class="card-front">
+                                card front
+                            </div>
+                            <div class="card-back">
+                                card back
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- script for handling the sidebar of mobile and tab screens -->
+    <!-- ------script for handling the sidebar of mobile and tab screens------- -->
     <script src="./navbar-sidebar.js"></script>
 
-    <!-- gsap link for the animations for texts and container  -->
+    <!-- ------gsap link for the animations for texts and container--------  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-    <!-- animation script for the conatiners and texts -->
+    <!-- ---------animation script for the conatiners and texts--------- -->
     <script src="./index-animation.js"></script>
 
+    <!-- --------link for the swiper js-----------  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./swiper-products.js"></script>
 </body>
 
 </html>
