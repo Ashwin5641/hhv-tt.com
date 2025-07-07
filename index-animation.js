@@ -98,9 +98,9 @@ gsap.from(".products-content > *", {
         start: "top 80%",
     },
     opacity: 0,
-    y: 40,
+    x: -40,
     duration: 1,
-    stagger: 0.2,
+    stagger: 0.5,
     ease: "power2.out"
 });
 

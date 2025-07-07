@@ -301,8 +301,36 @@
 
     <!-- -------------------start of the custom systems containers--------------------- -->
     <div class="custom-systems">
-
+        <div class="custom-systems-title">
+            <h1>Custom Systems</h1>
+        </div>
+        <div class="custum-system-cards">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/index-custom-systems/card-1.png" alt="">
+                </div>
+                <div class="card-title">
+                    <h3>Special Systems</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/index-custom-systems/card-2.png" alt="">
+                </div>
+                <div class="card-title">
+                    <h3>Special Projects</h3>
+                </div>
+            </div>
+        </div>
+        <div class="systems-button">
+            <a href="#">View All Systems</a>
+        </div>
     </div>
+
+
+
+
+
 
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
     <script src="./navbar-sidebar.js"></script>
