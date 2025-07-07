@@ -40,7 +40,7 @@ gsap.from(".first-card-fadein", {
 
 // company introduction of the images
 
-gsap.from(".company-intro-images-fadein",{
+gsap.from(".company-intro-images-fadein", {
     scrollTrigger: {
         trigger: ".company-intro-images-fadein",
         start: "top 90%",
@@ -53,7 +53,7 @@ gsap.from(".company-intro-images-fadein",{
 });
 
 
-gsap.from(".intro-company-text-fadein",{
+gsap.from(".intro-company-text-fadein", {
     scrollTrigger: {
         trigger: ".intro-comapany-text-fadein",
         start: "top 80%",
@@ -87,4 +87,34 @@ window.addEventListener("DOMContentLoaded", () => {
             ease: "power2.out"
         });
     });
+});
+
+
+// products card animation for the texts and containers
+
+gsap.from(".products-content > *", {
+    scrollTrigger: {
+        trigger: ".products-content",
+        start: "top 80%",
+    },
+    opacity: 0,
+    y: 40,
+    duration: 1,
+    stagger: 0.2,
+    ease: "power2.out"
+});
+
+gsap.from(".product-cards .card", {
+    scrollTrigger: {
+        trigger: ".products-wrapper",
+        start: "top 85%",
+    },
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    stagger: {
+        each: 0.15,
+        from: "start"
+    },
+    ease: "power2.out"
 });

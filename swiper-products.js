@@ -1,6 +1,8 @@
 var swiper = new Swiper(".products-wrapper", {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 10,
+    loop: true,
+    loopedSlides: 9,
 
     // ✅ Pagination (dots)
     pagination: {
@@ -26,13 +28,25 @@ var swiper = new Swiper(".products-wrapper", {
             slidesPerView: 1,
             spaceBetween: 10,
         },
-        768: {
+        501: {
             slidesPerView: 2,
             spaceBetween: 20,
         },
-        1024: {
+        701: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },  
+        800: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1000: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 10,
+        },
+        1450: {
+            slidesPerView: 4,
+            spaceBetween: 20,
         }
     }
 });

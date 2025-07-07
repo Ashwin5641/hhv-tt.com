@@ -165,118 +165,132 @@
 
 
     <!-- --------------------start of the products container------------------ -->
-    <div class="products-container">
+    <div class="products-container products-scroll-reveal">
         <div class="products-content">
-            <h1>Our Products</h1>
-
+            <h2>Our Products</h2>
+            <p>
+                Explore our range of advanced vacuum furnaces and thermal processing systems engineered
+                for high performance, reliability, and precision. From heat treatment to brazing,
+                melting, and more — we deliver cutting-edge technology built to meet your industry needs.
+            </p>
+            <a href="#">View All Products</a>
         </div>
         <div class="products-wrapper swiper">
             <div class="product-cards swiper-wrapper">
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card1-image">
+                            <img src="./assets/images/index-products/product1.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Heat Treatment Furnaces</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card2-image">
+                            <img src="./assets/images/index-products/product2.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Brazing Furnaces</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card3-image">
+                            <img src="./assets/images/index-products/product3.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Hot Presses</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card4-image">
+                            <img src="./assets/images/index-products/product4.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Aluminium Brazing Furnaces</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card5-image">
+                            <img src="./assets/images/index-products/product5.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Induction Melting and Casting Furnaces</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card6-image">
+                            <img src="./assets/images/index-products/product6.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>CVD,CVI and Graphitization Furnaces</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card7-image">
+                            <img src="./assets/images/index-products/product7.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Arc Re-melting Furnaces</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card8-image">
+                            <img src="./assets/images/index-products/product8.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Thermo Vacuum Systems</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide card">
                     <a href="#">
-                        <div class="inner-card">
-                            <div class="card-front">
-                                card front
-                            </div>
-                            <div class="card-back">
-                                card back
-                            </div>
+                        <div class="card-image card9-image">
+                            <img src="./assets/images/index-products/product9.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            <p>Vacuum Ovens</p>
+                        </div>
+                        <div class="card-button">
+                            <p>Know More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></p>
                         </div>
                     </a>
                 </div>
@@ -284,6 +298,11 @@
         </div>
     </div>
 
+
+    <!-- -------------------start of the custom systems containers--------------------- -->
+    <div class="custom-systems">
+
+    </div>
 
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
     <script src="./navbar-sidebar.js"></script>
