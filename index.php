@@ -328,9 +328,182 @@
     </div>
 
 
+    <!-- ------------------start of the testimonials container-------------------- -->
+
+    <div class="testimonial-section">
+        <div class="swiper myTestimonials">
+            <div class="swiper-wrapper testimonial-cards">
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://i.pravatar.cc/300?img=32" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nisl, luctus ut viverra quis, gravida pellentesque mi.</p>
+                            <p>Fusce imperdiet nibh sed libero tristique, at faucibus velit interdum. Integer bibendum enim et orci viverra placerat.</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <div class="testimonial-card-content">
+                        <div class="testimonial-card-image">
+                            <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Larissa Grant" />
+                        </div>
+                        <div class="testimonial-card-text">
+                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
+                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
+                            </svg>
+                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
+                            <p>Highly recommended for growing businesses!</p>
+                            <div class="testimonial-author-info">
+                                <strong>Larissa Grant</strong>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <!-- ---------------start of the contact form container-------------------- -->
+    <div class="contact-form">
 
+    </div>
 
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
     <script src="./navbar-sidebar.js"></script>
@@ -345,6 +518,7 @@
     <!-- --------link for the swiper js-----------  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./swiper-products.js"></script>
+    <script src="./index-testimonials.js"></script>
 </body>
 
 </html>

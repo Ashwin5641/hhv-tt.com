@@ -118,3 +118,4 @@ gsap.from(".product-cards .card", {
     },
     ease: "power2.out"
 });
+
