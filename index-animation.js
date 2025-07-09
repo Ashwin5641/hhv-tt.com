@@ -119,3 +119,89 @@ gsap.from(".product-cards .card", {
     ease: "power2.out"
 });
 
+// custom systems animations for the tests and conatainers
+
+gsap.from(".custom-systems-title", {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".custom-systems-title",
+        start: "top 80%",
+    }
+});
+
+gsap.from(".custom-system-card", {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    stagger: 0.3,
+    scrollTrigger: {
+        trigger: ".custum-system-cards",
+        start: "top 80%",
+    }
+});
+
+gsap.from(".systems-button", {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".systems-button",
+        start: "top 85%",
+    }
+});
+
+
+
+
+// testimonials animation for texts and cards
+
+gsap.from(".testimonial-title", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+        trigger: ".testimonial-title",
+        start: "top 80%",
+    }
+});
+
+gsap.from(".myTestimonials", {
+    y: 70,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power2.out",
+    scrollTrigger: {
+        trigger: ".myTestimonials",
+        start: "top 80%",
+    }
+});
+
+// contact form animations for the texts 
+
+window.addEventListener("DOMContentLoaded", () => {
+    const containers = document.querySelectorAll(".contact-text-onebyone");
+
+    containers.forEach(container => {
+        const words = container.textContent.trim().split(" ");
+        container.innerHTML = words
+            .map(word => `<span style="opacity: 0; display: inline-block; transform: translateX(-20px);">${word}&nbsp;</span>`)
+            .join("");
+
+        // Create scroll-triggered animation for this container
+        gsap.to(container.querySelectorAll("span"), {
+            scrollTrigger: {
+                trigger: container,
+                start: "top 80%", // Adjust as needed
+                toggleActions: "play none none none"
+            },
+            opacity: 1,
+            x: 0,
+            duration: 0.2,
+            stagger: 0.25,
+            ease: "power2.out"
+        });
+    });
+});

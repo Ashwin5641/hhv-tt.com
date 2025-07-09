@@ -305,7 +305,7 @@
             <h1>Custom Systems</h1>
         </div>
         <div class="custum-system-cards">
-            <div class="card">
+            <div class="card custom-system-card">
                 <div class="card-image">
                     <img src="./assets/images/index-custom-systems/card-1.png" alt="">
                 </div>
@@ -313,7 +313,7 @@
                     <h3>Special Systems</h3>
                 </div>
             </div>
-            <div class="card">
+            <div class="card custom-system-card">
                 <div class="card-image">
                     <img src="./assets/images/index-custom-systems/card-2.png" alt="">
                 </div>
@@ -331,169 +331,290 @@
     <!-- ------------------start of the testimonials container-------------------- -->
 
     <div class="testimonial-section">
+        <div class="testimonial-title">
+            <p>Our Client</p>
+            <h1>Testimonials</h1>
+        </div>
         <div class="swiper myTestimonials">
             <div class="swiper-wrapper testimonial-cards">
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://i.pravatar.cc/300?img=32" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nisl, luctus ut viverra quis, gravida pellentesque mi.</p>
-                            <p>Fusce imperdiet nibh sed libero tristique, at faucibus velit interdum. Integer bibendum enim et orci viverra placerat.</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span class="grey"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span class="grey"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span class="grey"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span class="grey"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <div class="testimonial-card-content">
-                        <div class="testimonial-card-image">
-                            <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Larissa Grant" />
-                        </div>
-                        <div class="testimonial-card-text">
-                            <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="#002766" width="32">
-                                <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17v4.16A4.17 4.17 0 0 0 7.17 18.5H9V11H6v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 8.83 6H7.17zM15.17 6A4.17 4.17 0 0 0 11 10.17v4.16A4.17 4.17 0 0 0 15.17 18.5H17V11h-3v1h1v-1a2.5 2.5 0 1 1 5 0v7h2V10.17A4.17 4.17 0 0 0 16.83 6h-1.66z" />
-                            </svg>
-                            <p>Great service and support! Helped our team stay on track and collaborate efficiently.</p>
-                            <p>Highly recommended for growing businesses!</p>
-                            <div class="testimonial-author-info">
-                                <strong>Larissa Grant</strong>
-                                <span>Brand Manager</span>
-                            </div>
+                    <div class="bar-and-quote">
+                        <div class="bar"></div>
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
+                    <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                    </div>
+                    <div class="rounds">
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                        <span><i class="fa-solid fa-compact-disc"></i></span>
+                    </div>
+                    <footer>
+                        <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="">
+                        <div class="name">
+                            <h3>Random</h3>
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </footer>
                 </div>
             </div>
         </div>
@@ -502,7 +623,65 @@
 
     <!-- ---------------start of the contact form container-------------------- -->
     <div class="contact-form">
-
+        <div class="title-and-icons">
+            <div class="contact-title">
+                <p>Contact Us</p>
+                <h1 class="contact-text-onebyone">To Make Requests for Further Information, Contact Us</h1>
+            </div>
+            <div class="contact-icons">
+                <div class="call-icon">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone-flip"></i>
+                    </div>
+                    <div class="text">
+                        <small>Call Us</small>
+                        <h3>91+ 8536038908</h3>
+                    </div>
+                </div>
+                <div class="location-icon">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="text">
+                        <small>Our Location</small>
+                        <h3>No. 17, Phase 1, Peenya, Bengaluru, India</h3>
+                    </div>
+                </div>
+                <div class="mail-icon">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <small>Mail Us</small>
+                        <h3>example@gmail.com</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form-inputs">
+                <div class="form-title">
+                    <h2>Send Your Message!</h2>
+                </div>
+                <div class="name-and-mail">
+                    <input type="text" placeholder="Your Name">
+                    <input type="mail" placeholder="Mail Address">
+                </div>
+                <div class="phone-and-quotation">
+                    <input type="text" placeholder="Phone Number">
+                    <select name="" id="">
+                        <option value="">Quotation</option>
+                        <option value="">Order</option>
+                    </select>
+                </div>
+                <div class="message">
+                    <textarea name="" id="" placeholder="Write a message"></textarea>
+                </div>
+                <div class="button">
+                    <a href="#">Send Your Message</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
