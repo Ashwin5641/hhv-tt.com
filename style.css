@@ -2379,6 +2379,40 @@ body {
 */
 
 footer {
-    height: 400px;
+    height: auto;
     width: 100%;
+    position: relative;
+}
+footer > .links-and-icons {
+    display: flex;
+    padding: 30px 8vw;
+}
+footer > .links-and-icons > .logo {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer > .links-and-icons > .logo > img {
+    height: 70px;
+    width: 220px;
+}
+footer > .links-and-icons > .logo > img > p {
+    color: #000d27;
+}
+footer > .links-and-icons > .logo > ul {
+    display: flex;
+    gap: 10px;
+}
+footer > .links-and-icons > .logo > ul > li > a {
+    color: #000d27;
+    font-size: 28px;
+}
+footer > .copy-rights {
+    height: 40px;
+    background-color: #000d27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

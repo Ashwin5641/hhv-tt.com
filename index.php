@@ -779,7 +779,22 @@
     <!-- -----------------start of the footer section container------------------- -->
 
     <footer>
-        
+        <div class="links-and-icons">
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="">
+                <p>Leaders in vacuum and thermal systems since 1965. <br> Serving aerospace, defense, and advanced engineering.</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-rights">
+            ©Copyright 2025 All Rights Reserved 
+        </div>
     </footer>
 
 
