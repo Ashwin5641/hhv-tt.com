@@ -1,5 +1,5 @@
 var swiper = new Swiper(".products-wrapper", {
-    slidesPerView: 4,
+    slidesPerView: 3,
     spaceBetween: 10,
     loop: true,
     loopedSlides: 9,
@@ -45,8 +45,8 @@ var swiper = new Swiper(".products-wrapper", {
             spaceBetween: 10,
         },
         1450: {
-            slidesPerView: 4,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 30,
         }
     }
 });

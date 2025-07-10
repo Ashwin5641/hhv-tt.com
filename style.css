@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -345,15 +348,6 @@ body {
     padding: 50px 50px;
     gap: 20px;
     overflow: hidden;
-}
-
-.first-section>div::before {
-    content: '';
-    position: absolute;
-    background-image: url(./assets/images/shape-1.png);
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
 }
 
 .first-section>div::after {
@@ -2058,3 +2052,154 @@ body {
         min-height: 200px;
     }
 }
+
+
+/*
+--------------------styling for the blog scetion container------------------
+ */
+.blog-section {
+    height: 700px;
+    width: 100%;
+    background-color: #000d27;
+    z-index: 5;
+    position: relative;
+}
+.blog-section::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-3.png);
+    background-repeat: no-repeat;
+    opacity: .2;
+    animation-name: moveBox;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes moveBox {
+    0% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.blog-section::after {
+    content: '';
+    position: absolute;
+    background-image: url(./assets/images/index-blog/shape-1.png);
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: .2;
+    animation-name: moveCircle;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+    z-index: -1;
+}
+@keyframes moveCircle {
+    0% {
+        transform: translateY(-20px);
+    } 
+    100% {
+        transform: translateY(0px);
+    }
+}
+.blog-section > .blog {
+    display: flex;
+    justify-content: center;
+}
+.blog-section > .blog > div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.blog-section > .blog > div > .blog-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.blog-section > .blog > div > .blog-title > h2 {
+    color: white;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 42px;
+}
+.blog-section > .blog > div > .blog-title > P {
+    color: white;
+    text-align: center;
+}
+.blog-section > .blog > div > .blog-title > a {
+    color: white;
+    padding: 12px 40px;
+    background-color: #fd0044;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: color .5s ease-in-out;
+    font-weight: bold;
+}
+.blog-section > .blog > div > .blog-title > a::before,
+.blog-section > .blog > div > .blog-title > a::after {
+    content: '';
+    background-color: white;
+    height: 0;
+    width: 0;
+    transition: height .5s ease-in-out, width .5s ease-in-out;
+    position: absolute;
+    z-index: -1;
+}
+.blog-section > .blog > div > .blog-title > a::before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+.blog-section > .blog > div > .blog-title > a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
+.blog-section > .blog > div > .blog-title > a:hover::before,
+.blog-section > .blog > div > .blog-title > a:hover::after {
+    width: 100%;
+    height: 100%;
+}
+.blog-section > .blog > div > .blog-title > a:hover {
+    color: #000d27;
+}
+.blog-section > .blog > div > .blog-cards {
+    display: flex;
+    gap: 20px;
+}
+.blog-section > .blog > div > .blog-cards > .blog-card {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+}
+.blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+    height: 250px;
+    width: 350px;
+    border-radius: 5px 5px 0px 0px;
+}
+.blog-section > .blog > div > .blog-cards > .blog-card > .card-title {
+    padding: 10px;
+}
+
+
+
+
