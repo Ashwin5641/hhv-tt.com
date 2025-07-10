@@ -2184,6 +2184,7 @@ body {
 .blog-section > .blog > div > .blog-cards {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 .blog-section > .blog > div > .blog-cards > .blog-card {
     height: 400px;
@@ -2200,6 +2201,184 @@ body {
     padding: 10px;
 }
 
+/* responsive design for the blog section of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 400px) {
+    .blog-section {
+        height: auto;
+        width: 100%;
+        padding: 50px 6vw;
+    }
+    .blog-section::before {
+        display: none;
+    }
+    .blog-section > .blog > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .blog-section > .blog > div > .blog-title > h2 {
+        font-size: clamp(32px, 6vw, 28px);
+    }
+    .blog-section > .blog > div > .blog-cards {
+        flex-direction: column;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card {
+        height: auto;
+        width: 100%;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+    .blog-section {
+        height: auto;
+        width: 100%;
+        padding: 50px 10vw;
+    }
+    .blog-section::before {
+        display: none;
+    }
+    .blog-section > .blog > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .blog-section > .blog > div > .blog-title > h2 {
+        font-size: clamp(32px, 6vw, 28px);
+    }
+    .blog-section > .blog > div > .blog-cards {
+        flex-direction: column;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card {
+        height: auto;
+        width: 100%;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 800px) {
+    .blog-section {
+        height: auto;
+        width: 100%;
+        padding: 50px 20vw;
+    }
+    .blog-section::before {
+        display: none;
+    }
+    .blog-section > .blog > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .blog-section > .blog > div > .blog-title > h2 {
+        font-size: clamp(32px, 6vw, 28px);
+    }
+    .blog-section > .blog > div > .blog-cards {
+        flex-direction: column;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card {
+        height: auto;
+        width: 100%;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+    .blog-section {
+        height: auto;
+        width: 100%;
+        padding: 50px 0;
+    }
+    .blog-section::before {
+        display: none;
+    }
+    .blog-section > .blog > div {
+        width: 50%;
+        gap: 30px;
+    }
+    .blog-section > .blog > div > .blog-title > h2 {
+        font-size: clamp(32px, 6vw, 28px);
+    }
+    .blog-section > .blog > div > .blog-cards {
+        flex-direction: column;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card {
+        height: auto;
+        width: 100%;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .blog-section {
+        height: auto;
+        width: 100%;
+        padding: 50px 0;
+    }
+    .blog-section::before {
+        display: none;
+    }
+    .blog-section > .blog > div {
+        width: 90%;
+        gap: 30px;
+    }
+    .blog-section > .blog > div > .blog-title > h2 {
+        font-size: clamp(32px, 6vw, 28px);
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card {
+        height: auto;
+        width: 100%;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1450px) {
+    .blog-section {
+        height: auto;
+        width: 100%;
+        padding: 50px 10vw;
+    }
+    .blog-section::before {
+        display: none;
+    }
+    .blog-section > .blog > div {
+        width: 100%;
+        gap: 30px;
+    }
+    .blog-section > .blog > div > .blog-title > h2 {
+        font-size: clamp(32px, 6vw, 28px);
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card {
+        height: auto;
+        width: 100%;
+    }
+    .blog-section > .blog > div > .blog-cards > .blog-card > .blog-image > img {
+        height: auto;
+        width: 100%;
+    }
+}
 
 
 
+/* 
+-------------------styling for the footer section-------------------  
+*/
+
+footer {
+    height: 400px;
+    width: 100%;
+}

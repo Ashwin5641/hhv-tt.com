@@ -776,6 +776,14 @@
     </div>
 
 
+    <!-- -----------------start of the footer section container------------------- -->
+
+    <footer>
+        
+    </footer>
+
+
+
 
 
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
