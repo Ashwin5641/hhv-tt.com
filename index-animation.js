@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     containers.forEach(container => {
         const words = container.textContent.trim().split(" ");
         container.innerHTML = words
-            .map(word => `<span>${word}&nbsp;</span>`)
+            .map(word => `<span style="opacity: 0; display: inline-block; transform: translateX(-20px);">${word}&nbsp;</span>`)
             .join("");
     });
 

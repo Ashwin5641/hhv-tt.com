@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* 
+---------------styling for the products page title--------------------
+*/
+
+.product-page-title {
+    height: 250px;
+    width: 100%;
+}

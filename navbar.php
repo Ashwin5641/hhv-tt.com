@@ -5,7 +5,7 @@
     <div class="navbar-menu-items">
         <ul>
             <li class="hover-products">
-                <a href="#">Products <i class="fa-solid fa-angle-down"></i></a>
+                <a href="./products.php">Products <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="hover-products-list">
                     <li><a href="#">Heat Treatment Furnaces</a></li>
                     <li><a href="#">Vacuum Brazing Furnaces</a></li>
@@ -48,7 +48,7 @@
         <ul>
             <li id="sidebar-products">
                 <div class="product-nd-icon">
-                    <a href="#">Products</a><span class="products-plus"><i class="fa-solid fa-plus"></i></span><span class="products-cross"><i class="fa-solid fa-x"></i></span>
+                    <a href="./products.php">Products</a><span class="products-plus"><i class="fa-solid fa-plus"></i></span><span class="products-cross"><i class="fa-solid fa-x"></i></span>
                 </div>
             </li>
             <div class="sidebar-products-list">
