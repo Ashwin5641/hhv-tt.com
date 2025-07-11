@@ -2386,12 +2386,15 @@ footer {
 footer > .links-and-icons {
     display: flex;
     padding: 30px 8vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 footer > .links-and-icons > .logo {
-    width: 25%;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 25%;
 }
 footer > .links-and-icons > .logo > img {
     height: 70px;
@@ -2408,6 +2411,58 @@ footer > .links-and-icons > .logo > ul > li > a {
     color: #000d27;
     font-size: 28px;
 }
+footer > .links-and-icons > .logo > ul > li > a:hover {
+    color: #e63946;
+}
+footer > .links-and-icons > .useful-links {
+    width: fit-content;
+}
+footer > .links-and-icons > .useful-links > ul {
+    color: #e63946;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer > .links-and-icons > .useful-links > ul > li > a {
+    color: #000d27;
+}
+footer > .links-and-icons > .product-links {
+    width: 25%;
+}
+footer > .links-and-icons > .product-links > ul {
+    color: #e63946;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer > .links-and-icons > .contact-us {
+    width: 25%;
+}
+footer > .links-and-icons > .contact-us > ul {
+    color: #e63946;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer > .links-and-icons > .contact-us > ul > li > ul {
+    color: #000d27;
+    display: flex;
+    gap: 20px;
+}
+footer > .links-and-icons > .contact-us > ul > li > ul > .extra-size {
+    padding: 4px;
+}
+footer > .links-and-icons > .contact-us > ul > li > ul > li:nth-child(1) {
+    font-size: 32px;
+}
+
+footer > .links-and-icons > .contact-us > ul > li > ul > li:nth-child(1):hover {
+    color: #e63946;
+}
+footer > .links-and-icons > .product-links > ul > li > a {
+    color: #000d27;
+}
+
 footer > .copy-rights {
     height: 40px;
     background-color: #000d27;
@@ -2415,4 +2470,75 @@ footer > .copy-rights {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 400px) {
+    footer > .links-and-icons {
+        flex-direction: column;
+    }
+    footer > .links-and-icons > .logo {
+        width: 100%;
+    }
+    footer > .links-and-icons > .useful-links {
+        width: 100%;
+    }
+    footer > .links-and-icons > .product-links {
+        width: 100%;
+    }
+    footer > .links-and-icons > .contact-us {
+        width: 100%;
+    }
+}
+@media (min-width: 401px) and (max-width: 600px) {
+    footer > .links-and-icons {
+        flex-direction: column;
+        padding: 30px 12vw;
+    }
+    footer > .links-and-icons > .logo {
+        width: 100%;
+    }
+    footer > .links-and-icons > .useful-links {
+        width: 100%;
+    }
+    footer > .links-and-icons > .product-links {
+        width: 100%;
+    }
+    footer > .links-and-icons > .contact-us {
+        width: 100%;
+    }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    footer > .links-and-icons {
+        height: auto;
+        padding: 30px 6vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0;
+    }
+    footer > .links-and-icons > .logo {
+        width: 50%;
+    }
+    footer > .links-and-icons > .useful-links {
+        width: 50%;
+    }
+    footer > .links-and-icons > .product-links {
+        width: 50%;
+    }
+    footer > .links-and-icons > .contact-us {
+        width: 50%;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1350px) {
+    footer > .links-and-icons {
+        height: auto;
+        padding: 30px 5vw;
+        justify-content: space-between;
+        gap: 0;
+    }
+    footer > .links-and-icons > .logo,
+    footer > .links-and-icons > .product-links 
+    footer > .links-and-icons > .contact-us {
+        width: 25%;
+    }
 }
