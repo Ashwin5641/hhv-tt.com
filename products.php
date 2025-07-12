@@ -49,20 +49,152 @@
     <!-- ---------link for the AOS animations on scroll-------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- -------swiper.js cdn link for the products carousel--------- -->
+    <!-- -------swiper.js cdn link for the carousel and cards --------- -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
 
 </head>
 
 <body>
+
+    <!-- ----------start of the topbar----------- -->
     <?php include './topbar.php' ?>
+
+    <!-- ----------start of the navbar----------- -->
     <?php include './navbar.php' ?>
 
+
+    <!-- ----------start of the products page title---------- -->
     <div class="product-page-title">
-        <h1>Our Products</h1>
+        <h1>Explore Our Products</h1>
+        <p>Cutting-edge thermal solutions for every industry</p>
     </div>
 
 
+    <!-- ----------start of the products page cards with filtering and searching-----------  -->
+    <section class="page-products-cont">
+        <div>
+            <div class="controls">
+                <div class="search-bar">
+                    <input id="searchInput" type="text" placeholder="Search Products..."><span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="filters">
+                    <a class="filter active" data-category="all">All</a>
+                    <a class="filter" data-category="furnace">Furnace</a>
+                    <a class="filter" data-category="brazing">Brazing</a>
+                    <a class="filter" data-category="melting">Melting</a>
+                </div>
+            </div>
+            <div class="page-products">
+                <div class="page-product-card" data-title="Vacuum Heat Treatment Furnaces" data-category="furnace">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product1.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Heat Treatment Furnaces</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Vacuum Brazing Furnaces" data-category="brazing">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product2.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Brazing Furnaces</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Vacuum Hot Presses" data-category="furnace">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product3.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Hot Presses</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Vacuum Aluminium Brazing Furnaces" data-category="brazing">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product4.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Aluminium Brazing Furnaces</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Vacuum Induction Melting and Casting Furnaces" data-category="melting">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product5.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Induction Melting and Casting Furnaces</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="CVD,CVI and Graphitization Furnaces" data-category="furnace">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product6.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>CVD,CVI and Graphitization Furnaces</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Vacuum Arc Re-melting Furnaces" data-category="melting">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product7.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Arc Re-melting Furnaces</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Thermo Vacuum Systems" data-category="furnace">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product8.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Thermo Vacuum Systems</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="page-product-card" data-title="Vacuum Ovens" data-category="furnace">
+                    <div class="page-product-img">
+                        <img src="./assets/images/products-page/product9.png" alt="">
+                    </div>
+                    <div class="page-product-card-title">
+                        <h3>Vacuum Ovens</h3>
+                    </div>
+                    <div class="page-product-card-button">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------start of the spares and services section--------------  -->
+    <div class="spares-and-services">
+
+    </div>
+
+    <!-- ----------------start of the footers section-------------------- -->
     <?php include './footer.php' ?>
 
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->

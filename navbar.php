@@ -19,7 +19,7 @@
                     <li><a href="#">Spares and Service</a></li>
                 </ul>
             </li>
-            <li><a href="#">Custom Systems</a></li>
+            <li><a href="./custom-systems.php">Custom Systems</a></li>
             <li><a href="#">Resource Centre</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
@@ -65,7 +65,7 @@
                     <li><a href="#">Spares and Service</a></li>
                 </ul>
             </div>
-            <li><a href="#">Custom Systems</a></li>
+            <li><a href="./custom-systems.php">Custom Systems</a></li>
             <li><a href="#">Resource Centre</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>

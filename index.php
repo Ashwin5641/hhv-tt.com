@@ -405,12 +405,12 @@
                 </div>
                 <div class="swiper-slide testimonial-card">
                     <div class="bar-and-quote">
-                        <div class="bar"></div>
-                        <div class="quote">
+                        <div class="bar bar-alternate-color"></div>
+                        <div class="quote quote-alternate-color">
                             <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
-                    <div class="stars">
+                    <div class="stars stars-alternate-color">
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
@@ -418,15 +418,15 @@
                         <span><i class="fa-solid fa-star"></i></span>
                     </div>
                     <div class="review">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
+                        <p class="text-alternate-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
                     </div>
-                    <div class="rounds">
+                    <div class="rounds rounds-alternate-color">
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                     </div>
-                    <footer>
+                    <footer class="footer-alternate-color">
                         <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="">
                         <div class="name">
                             <h3>Random</h3>
@@ -467,12 +467,12 @@
                 </div>
                 <div class="swiper-slide testimonial-card">
                     <div class="bar-and-quote">
-                        <div class="bar"></div>
-                        <div class="quote">
+                        <div class="bar bar-alternate-color"></div>
+                        <div class="quote quote-alternate-color">
                             <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
-                    <div class="stars">
+                    <div class="stars stars-alternate-color">
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
@@ -482,13 +482,13 @@
                     <div class="review">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
                     </div>
-                    <div class="rounds">
+                    <div class="rounds rounds-alternate-color">
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                     </div>
-                    <footer>
+                    <footer class="footer-alternate-color">
                         <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="">
                         <div class="name">
                             <h3>Random</h3>
@@ -529,12 +529,12 @@
                 </div>
                 <div class="swiper-slide testimonial-card">
                     <div class="bar-and-quote">
-                        <div class="bar"></div>
-                        <div class="quote">
+                        <div class="bar bar-alternate-color"></div>
+                        <div class="quote quote-alternate-color">
                             <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
-                    <div class="stars">
+                    <div class="stars stars-alternate-color">
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
@@ -544,13 +544,13 @@
                     <div class="review">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
                     </div>
-                    <div class="rounds">
+                    <div class="rounds rounds-alternate-color">
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
-                    </div>
-                    <footer>
+                    </div> 
+                    <footer class="footer-alternate-color">
                         <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="">
                         <div class="name">
                             <h3>Random</h3>
@@ -591,12 +591,12 @@
                 </div>
                 <div class="swiper-slide testimonial-card">
                     <div class="bar-and-quote">
-                        <div class="bar"></div>
-                        <div class="quote">
+                        <div class="bar bar-alternate-color"></div>
+                        <div class="quote quote-alternate-color">
                             <i class="fa-solid fa-quote-right"></i>
                         </div>
                     </div>
-                    <div class="stars">
+                    <div class="stars stars-alternate-color">
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
                         <span><i class="fa-solid fa-star"></i></span>
@@ -606,13 +606,13 @@
                     <div class="review">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui inventore error sapiente fugit ad perspiciatis quisquam, incidunt amet dolore rerum, provident officiis. Deleniti ratione alias nobis consectetur animi enim.</p>
                     </div>
-                    <div class="rounds">
+                    <div class="rounds rounds-alternate-color">
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                     </div>
-                    <footer>
+                    <footer class="footer-alternate-color">
                         <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="">
                         <div class="name">
                             <h3>Random</h3>
