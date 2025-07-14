@@ -9,7 +9,7 @@
 
     <!-- links for the stylesheets -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./products-page.css">
+    <link rel="stylesheet" href="./custom-systems-page.css">
 
     <!-- ---------------link for the fonts-------------- -->
     <!-- Rajdhaani Font -->
@@ -52,17 +52,35 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
+
+    <!-- ------------start of the topbar----------------  -->
     <?php include './topbar.php' ?>
+    <!-- ------------start of the navbar----------------  -->
     <?php include './navbar.php' ?>
 
 
-    <div class="page-custom-systems-title">
+    <!-- ------------start of the page custom systems title--------------- -->
+    <div class="page-custom-systems-title"> 
         <h1>Our Custom Systems</h1>
         <p>Precision-designed thermal systems for unique applications</p>
     </div>
 
+    
 
-
+    <!-- ------------start of the page custom systems cards---------------- -->
+    <div class="page-custom-systems-cards">
+        <div class="page-system-cards">
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+            <div class="page-system-card"></div>
+        </div>
+    </div>
+    
 
     <?php include './footer.php' ?>
 

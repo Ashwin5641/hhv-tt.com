@@ -40,6 +40,63 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+.product-page-title::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-1.png);
+    background-position: right;
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: titleCircleMove;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes titleCircleMove {
+    0% {
+        transform: translateX(40px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
+}
+.product-page-title::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-3.png);
+    background-position: left;
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: titleBoxMove;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes titleBoxMove {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-50px);
+    }
 }
 .page-products-cont {
     display: flex;

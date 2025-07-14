@@ -30,3 +30,98 @@ body {
 /* 
 ----------------styling for the custom systems page title-----------------
  */
+
+.page-custom-systems-title {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #000d27;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+.page-custom-systems-title::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: .3;
+    animation-name: titleMoveBox;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+} 
+
+@keyframes titleMoveBox {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.page-custom-systems-title::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-1.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    opacity: .3;
+    animation-name: titleCircleMove;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes titleCircleMove {
+    0% {
+        transform: translateX(40px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+/* 
+-------------------styling for the page custom systems cards------------------------
+*/
+
+.page-custom-systems-cards {
+    height: auto;
+    width: 100%;
+    padding: 50px 6vw;
+    display: flex;
+    justify-content: center;
+}
+.page-custom-systems-cards > .page-system-cards {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.page-custom-systems-cards > .page-system-cards > .page-system-card {
+    height: 600px;
+    width: 500px;
+    background-color: cadetblue;
+}
