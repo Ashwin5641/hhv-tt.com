@@ -21,7 +21,7 @@
             </li>
             <li><a href="./custom-systems.php">Custom Systems</a></li>
             <li><a href="#">Resource Centre</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="./about-us.php">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Careers</a></li>
         </ul>
@@ -67,7 +67,7 @@
             </div>
             <li><a href="./custom-systems.php">Custom Systems</a></li>
             <li><a href="#">Resource Centre</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="./about-us.php">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Careers</a></li>
         </ul>
