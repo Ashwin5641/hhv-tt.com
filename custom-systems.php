@@ -161,7 +161,7 @@
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
     <script src="./navbar-sidebar.js"></script>
 
-
+    
 
 </body>
 
