@@ -104,10 +104,38 @@ body {
 }
 .page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    width: 250px;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card > .page-blog-hero-content-card-img {
     height: 150px;
     width: 250px;
     background-color: beige;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card > .page-blog-hero-content-card-title > a {
+    color: white;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card > .page-blog-hero-content-card-img1 {
+    background-image: url(./assets/images/blog-page/hero-content1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card > .page-blog-hero-content-card-img2 {
+    background-image: url(./assets/images/blog-page/hero-content2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card > .page-blog-hero-content-card-img3 {
+    background-image: url(./assets/images/blog-page/hero-content3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.page-blog-hero-section > .page-blog-hero-new-innovations > a {
+    color: white;
 }

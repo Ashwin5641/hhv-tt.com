@@ -127,7 +127,7 @@ body {
 }
 .page-custom-systems-cards > .page-system-cards {
     width: 80%;
-    padding: 10px;
+    padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -159,3 +159,42 @@ body {
 .page-custom-systems-cards > .page-system-cards > .page-system-card > .page-system-card-content > small {
     color: #e63946;
 }
+
+
+/* responsive design for the custom systems cards page of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-custom-systems-cards > .page-system-cards {
+        width: 100%;
+    }
+    .page-custom-systems-cards > .page-system-cards > .page-system-card {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-custom-systems-cards > .page-system-cards {
+        width: 100%;
+        padding: 50px 7vw;
+    }
+    .page-custom-systems-cards > .page-system-cards > .page-system-card {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1350px) {
+    .page-custom-systems-cards > .page-system-cards {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

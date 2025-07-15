@@ -74,14 +74,77 @@
             <div class="page-blog-hero-content-cards">
                 <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;&nbsp;Trending Now</a>
                 <div>
-                    <div class="page-blog-hero-content-card"></div>
-                    <div class="page-blog-hero-content-card"></div>
-                    <div class="page-blog-hero-content-card"></div>
+                    <div class="page-blog-hero-content-card">
+                        <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img1">
+
+                        </div>
+                        <div class="page-blog-hero-content-card-title">
+                            <a href="#">Lifetime Membership Award</a>
+                        </div>
+                    </div>
+                    <div class="page-blog-hero-content-card">
+                        <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img2">
+
+                        </div>
+                        <div class="page-blog-hero-content-card-title">
+                            <a href="#">HHV announces demerger plan to create simplified corporate structure</a>
+                        </div>
+                    </div>
+                    <div class="page-blog-hero-content-card">
+                        <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img3">
+
+                        </div>
+                        <div class="page-blog-hero-content-card-title">
+                            <a href="#">HHV Institutes SV Narasaiah Auditorium at IISc Bangalore</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="page-blog-hero-new-innovations">
+            <a href="#"><i class="fa-solid fa-bullhorn"></i><span>&nbsp;&nbsp;New Innovations</span></a>
+            <div class="page-blog-hero-new-innovation-cards">
+                <div class="page-blog-hero-new-innovation-card">
+                    <div class="page-blog-hero-new-innovation-card-img">
 
+                    </div>
+                    <div class="page-blog-hero-new-innovation-card-img-content">
+
+                    </div>
+                </div>
+                <div class="page-blog-hero-new-innovation-card">
+                    <div class="page-blog-hero-new-innovation-card-img">
+
+                    </div>
+                    <div class="page-blog-hero-new-innovation-card-img-content">
+
+                    </div>
+                </div>
+                <div class="page-blog-hero-new-innovation-card">
+                    <div class="page-blog-hero-new-innovation-card-img">
+
+                    </div>
+                    <div class="page-blog-hero-new-innovation-card-img-content">
+
+                    </div>
+                </div>
+                <div class="page-blog-hero-new-innovation-card">
+                    <div class="page-blog-hero-new-innovation-card-img">
+
+                    </div>
+                    <div class="page-blog-hero-new-innovation-card-img-content">
+
+                    </div>
+                </div>
+                <div class="page-blog-hero-new-innovation-card">
+                    <div class="page-blog-hero-new-innovation-card-img">
+
+                    </div>
+                    <div class="page-blog-hero-new-innovation-card-img-content">
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
