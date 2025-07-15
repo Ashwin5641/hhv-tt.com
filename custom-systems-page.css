@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
 }
 
@@ -108,9 +108,22 @@ body {
 .page-custom-systems-cards {
     height: auto;
     width: 100%;
-    padding: 50px 6vw;
+    padding: 0px 6vw;
     display: flex;
     justify-content: center;
+    z-index: 100;
+    overflow: hidden;
+    position: relative;
+}
+.page-custom-systems-cards::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/images/abstract-images/abstract1.jpg);
+    z-index: -1;
+    background-size: 100% 100%;
+    opacity: .2;
 }
 .page-custom-systems-cards > .page-system-cards {
     width: 80%;

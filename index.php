@@ -549,7 +549,7 @@
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
                         <span><i class="fa-solid fa-compact-disc"></i></span>
-                    </div> 
+                    </div>
                     <footer class="footer-alternate-color">
                         <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="">
                         <div class="name">

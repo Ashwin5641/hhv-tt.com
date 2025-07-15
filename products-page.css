@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
 }
 
@@ -25,7 +25,6 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
-
 
 /* 
 ---------------styling for the products page title--------------------
@@ -103,7 +102,20 @@ body {
     justify-content: center;
     height: auto;
     width: 100%;
-    padding: 50px 0px;
+    padding: 0px 0px;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+.page-products-cont::before {
+    content: '';
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/images/abstract.jpg);
+    position: absolute;
+    background-size: 100% 100%;
+    opacity: .2;
 }
 .page-products-cont > div {
     width: 70%;

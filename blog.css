@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* 
+------------------------styling for the hero section------------------------
+*/
+
+.page-blog-hero-section {
+    height: auto;
+    width: 100%;
+    position: relative;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    padding: 50px 10vw;
+}
+.page-blog-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/images/blog-page/hero-image.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+.page-blog-hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .78;
+    z-index: -1;
+}
+.page-blog-hero-section > .page-blog-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 60%;
+    padding: 0px 5vw 0 0;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-title > a {
+    color: white;
+    background-color: #e63946;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    width: fit-content;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-title > h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-title > p {
+    font-weight: 300;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > a {
+    color: white;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div {
+    display: flex;
+    gap: 10px;
+}
+.page-blog-hero-section > .page-blog-hero-content > .page-blog-hero-content-cards > div > .page-blog-hero-content-card {
+    height: 150px;
+    width: 250px;
+    background-color: beige;
+}
