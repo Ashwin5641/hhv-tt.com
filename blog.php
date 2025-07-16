@@ -65,6 +65,7 @@
     <?php include './navbar.php' ?>
 
 
+    <!-- ----------start of the page blog hero section------------- -->
     <div class="page-blog-hero-section">
         <div class="page-blog-hero-content">
             <div class="page-blog-hero-title">
@@ -159,6 +160,7 @@
     </div>
 
 
+    <!-- ------------start of the  -->
 
 
 

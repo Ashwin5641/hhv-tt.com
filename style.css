@@ -21,8 +21,6 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     color: #000d27;
-    position: relative;
-    z-index: 800;
 }
 
 /* 
@@ -795,16 +793,6 @@ body {
     display: flex;
     position: relative;
     z-index: 5;
-}
-.company-intro::before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    opacity: .1;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .company-intro>.intro-images {
     width: 50%;
