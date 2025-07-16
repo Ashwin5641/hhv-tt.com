@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
 
 
+
 </head>
 
 <body>
@@ -72,30 +73,34 @@
                 <p>Stay updated on breakthroughs, engineering solutions, and real-world applications in thermal processing</p>
             </div>
             <div class="page-blog-hero-content-cards">
-                <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;&nbsp;Trending Now</a>
                 <div>
-                    <div class="page-blog-hero-content-card">
-                        <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img1">
+                    <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;&nbsp;Trending Now</a>
+                </div>
+                <div class="swiper trending-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="page-blog-hero-content-card swiper-slide">
+                            <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img1">
 
+                            </div>
+                            <div class="page-blog-hero-content-card-title">
+                                <a href="#">Lifetime Membership Award</a>
+                            </div>
                         </div>
-                        <div class="page-blog-hero-content-card-title">
-                            <a href="#">Lifetime Membership Award</a>
-                        </div>
-                    </div>
-                    <div class="page-blog-hero-content-card">
-                        <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img2">
+                        <div class="page-blog-hero-content-card swiper-slide">
+                            <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img2">
 
+                            </div>
+                            <div class="page-blog-hero-content-card-title">
+                                <a href="#">HHV announces demerger plan to create simplified corporate structure</a>
+                            </div>
                         </div>
-                        <div class="page-blog-hero-content-card-title">
-                            <a href="#">HHV announces demerger plan to create simplified corporate structure</a>
-                        </div>
-                    </div>
-                    <div class="page-blog-hero-content-card">
-                        <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img3">
+                        <div class="page-blog-hero-content-card swiper-slide">
+                            <div class="page-blog-hero-content-card-img page-blog-hero-content-card-img3">
 
-                        </div>
-                        <div class="page-blog-hero-content-card-title">
-                            <a href="#">HHV Institutes SV Narasaiah Auditorium at IISc Bangalore</a>
+                            </div>
+                            <div class="page-blog-hero-content-card-title">
+                                <a href="#">HHV Institutes SV Narasaiah Auditorium at IISc Bangalore</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,43 +110,48 @@
             <a href="#"><i class="fa-solid fa-bullhorn"></i><span>&nbsp;&nbsp;New Innovations</span></a>
             <div class="page-blog-hero-new-innovation-cards">
                 <div class="page-blog-hero-new-innovation-card">
-                    <div class="page-blog-hero-new-innovation-card-img">
+                    <div class="page-blog-hero-new-innovation-card-img page-blog-hero-new-innovation-card-img1">
 
                     </div>
                     <div class="page-blog-hero-new-innovation-card-img-content">
-
+                        <p>Rotary Vacuum Brazing Furnace</p>
+                        <small>Nov 17, 2023</small>
                     </div>
                 </div>
                 <div class="page-blog-hero-new-innovation-card">
-                    <div class="page-blog-hero-new-innovation-card-img">
+                    <div class="page-blog-hero-new-innovation-card-img page-blog-hero-new-innovation-card-img2">
 
                     </div>
                     <div class="page-blog-hero-new-innovation-card-img-content">
-
+                        <p>Robotized TIG Welding System</p>
+                        <small>Nov 15, 2023</small>
                     </div>
                 </div>
                 <div class="page-blog-hero-new-innovation-card">
-                    <div class="page-blog-hero-new-innovation-card-img">
+                    <div class="page-blog-hero-new-innovation-card-img page-blog-hero-new-innovation-card-img3">
 
                     </div>
                     <div class="page-blog-hero-new-innovation-card-img-content">
-
+                        <p>Hypersonic Wind Tunnel</p>
+                        <small>Nov 14, 2023</small>
                     </div>
                 </div>
                 <div class="page-blog-hero-new-innovation-card">
-                    <div class="page-blog-hero-new-innovation-card-img">
+                    <div class="page-blog-hero-new-innovation-card-img page-blog-hero-new-innovation-card-img4">
 
                     </div>
                     <div class="page-blog-hero-new-innovation-card-img-content">
-
+                        <p>Shock Tunnels</p>
+                        <small>Nov 14, 2023</small>
                     </div>
                 </div>
                 <div class="page-blog-hero-new-innovation-card">
-                    <div class="page-blog-hero-new-innovation-card-img">
+                    <div class="page-blog-hero-new-innovation-card-img page-blog-hero-new-innovation-card-img5">
 
                     </div>
                     <div class="page-blog-hero-new-innovation-card-img-content">
-
+                        <p>Glove Box Welding</p>
+                        <small>Nov 14, 2023</small>
                     </div>
                 </div>
             </div>
@@ -158,6 +168,9 @@
     <!-- ------script for handling the sidebar of mobile and tab screens------- -->
     <script src="./navbar-sidebar.js"></script>
 
+    <!-- ------swiper js cdn link for the carousel--------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./blog-swiper.js"></script>
 
 </body>
 
