@@ -160,9 +160,93 @@
     </div>
 
 
-    <!-- ------------start of the  -->
+    <!-- ------------start of the new products and popular now-------------- -->
+    <div class="newproducts-and-popularnow">
+        <div class="newproducts">
+            <h2>Trending</h2>
+            <div class="newproducts-img">
+                <img src="./assets/images/blog-page/newproduct2.jpg" alt="">
+                <div class="newproducts-img-content">
+                    <div class="new-button">
+                        <a href="#">Breaking</a>
+                    </div>
+                    <div class="related-button">
+                        <a href="#">Technology</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum sint aut nostrum sed esse, repudiandae aspernatur animi. Quod laborum debitis maiores ipsum. Dolorem temporibus nulla mollitia minus accusantium ipsam.</p>
+                        <small>Nov 14, 2023</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popularnow">
+            <h2>Popular Now</h2>
+            <div class="popularnow-first-row">
+                <div class="popularnow-first-row-card popularnow-first-row-card1">
+                    <div class="popularnow-first-row-card-img">
+                        <img src="./assets/images/blog-page/firstrow3.jpg" alt="">
+                    </div>
+                    <div class="popularnow-first-row-card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                    </div>
+                </div>
+                <div class="popularnow-first-row-card popularnow-first-row-card2">
+                    <div class="popularnow-first-row-card-img">
+                        <img src="./assets/images/blog-page/firstrow4.jpg" alt="">
+                    </div>
+                    <div class="popularnow-first-row-card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="popularnow-second-row">
+                <div class="popularnow-second-row-card popularnow-second-row-card1">
+                    <div class="popularnow-second-row-card-img">
+                        <img src="./assets/images/blog-page/secondrow1.jpg" alt="">
+                    </div>
+                    <div class="popularnow-second-row-card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                    </div>
+                </div>
+                <div class="popularnow-second-row-card popularnow-second-row-card2">
+                    <div class="popularnow-second-row-card-img">
+                        <img src="./assets/images/blog-page/secondrow2.jpg" alt="">
+                    </div>
+                    <div class="popularnow-second-row-card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+
+    <!-- ---------------start of the social media banner----------------- -->
+    <div class="social-media-banner">
+        <div class="linkedin-banner">
+            <div class="linkedin-banner-title">
+                <h1>Connect with Us on LinkedIn</h1>
+                <p>Follow our page to stay up-to-date with insights, innovations, and career opportunities. Let's build the future together.</p>
+            </div>
+            <div class="linked-banner-button">
+                <div class="banner-button">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />&nbsp;&nbsp;Follow on LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    start of the 
+
+
+
+    
 
     <!-- ----------------start of the footers section-------------------- -->
     <?php include './footer.php' ?>
