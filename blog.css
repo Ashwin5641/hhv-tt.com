@@ -457,6 +457,10 @@ body {
 .newproducts-and-popularnow>.popularnow>.popularnow-first-row>.popularnow-first-row-card {
     height: 330px;
     width: 300px;
+    overflow: hidden;
+}
+.newproducts-and-popularnow>.popularnow>.popularnow-first-row>.popularnow-first-row-card:hover .popularnow-first-row-card-img > img {
+    transform: scale(1.05);
 }
 
 .newproducts-and-popularnow>.popularnow>.popularnow-first-row>.popularnow-first-row-card>.popularnow-first-row-card-img {
@@ -476,6 +480,7 @@ body {
 .newproducts-and-popularnow>.popularnow>.popularnow-first-row>.popularnow-first-row-card>.popularnow-first-row-card-img>img {
     height: 200px;
     width: 300px;
+    transition: transform .4s ease;
 }
 
 .newproducts-and-popularnow>.popularnow>.popularnow-second-row {
@@ -487,8 +492,11 @@ body {
 .newproducts-and-popularnow>.popularnow>.popularnow-second-row>.popularnow-second-row-card {
     height: 330px;
     width: 300px;
+    overflow: hidden;
 }
-
+.newproducts-and-popularnow>.popularnow>.popularnow-second-row>.popularnow-second-row-card:hover .popularnow-second-row-card-img > img {
+    transform: scale(1.05);
+}
 .newproducts-and-popularnow>.popularnow>.popularnow-second-row>.popularnow-second-row-card>.popularnow-second-row-card-img {
     height: 200px;
     width: 300px;
@@ -506,6 +514,7 @@ body {
 .newproducts-and-popularnow>.popularnow>.popularnow-second-row>.popularnow-second-row-card>.popularnow-second-row-card-img>img {
     height: 200px;
     width: 300px;
+    transition: transform .4s ease;
 }
 
 /* responsive design for the new products and popular now of mobile and tab screens */
@@ -831,5 +840,251 @@ body {
     .social-media-banner>.linkedin-banner>.linkedin-banner-title>h1 {
         font-weight: 800;
         font-size: 6vw;
+    }
+}
+
+
+/* 
+-----------------styling for the editor choice and worth reading------------------- 
+*/
+
+.editorChoice-worthReading {
+    padding: 50px 8vw;
+}
+.editorChoice-worthReading > .editor-and-worth {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice {
+    width: 75%;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > h2 {
+    font-weight: 700;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card {
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    overflow: hidden;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > img {
+    height: 200px;
+    width: 300px;
+    transition: transform .4s ease;
+    transform: scale(1);
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card:hover img {
+    transform: scale(1.05);
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > .editor-choice-card-info {
+    margin-top: 10px;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > .editor-choice-card-info > a {
+    color: #000d27;
+    font-weight: 500;
+}
+.editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > .editor-choice-card-info > p {
+    font-size: small;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading {
+    width: 25%;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > h2 {
+    font-weight: 700;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards {
+    margin-top: 20px;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card {
+    width: 300px;
+    height: 350px;
+    border-bottom: 0.1px solid #cccccc;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > video {
+    height: auto;
+    width: 300px;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > .worth-reading-card-info {
+    margin-top: 10px;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > .worth-reading-card-info > a {
+    color: #000d27;
+    font-weight: 500;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > .worth-reading-card-info > p {
+    font-size: small;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-second-cards > .worth-reading-second-card {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 300px;
+    justify-content: center;
+    border-bottom: 0.1px solid #cccccc;
+    gap: 10px;
+}
+.editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-second-cards > .worth-reading-second-card > a {
+    color: #000d27;
+    font-weight: 500;
+}
+
+
+/* responsive design for the editor choice and worth reading of the mobile and tab screens */
+@media (min-width: 320px) and (max-width: 500px) {
+    .editorChoice-worthReading {
+        padding: 50px 3vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > img {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > video {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-second-cards > .worth-reading-second-card {
+        width: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .editorChoice-worthReading {
+        padding: 50px 5vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > img {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > video {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-second-cards > .worth-reading-second-card {
+        width: 100%;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .editorChoice-worthReading {
+        padding: 50px 5vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > h2 {
+        text-align: center;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards {
+        justify-content: center;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > video {
+        height: auto;
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-second-cards > .worth-reading-second-card {
+        width: 100%;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+    .editorChoice-worthReading {
+        padding: 50px 8vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth {
+        display: flex;
+        gap: 0px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice {
+        width: 100%;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading {
+        width: 100%;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1500px) {
+    .editorChoice-worthReading {
+        padding: 50px 5vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth {
+        display: flex;
+        gap: 0px;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice {
+        width: 75vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading {
+        width: 25vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card {
+        width: 20vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .editor-choice > .editor-choice-cards > .editor-choice-card > img {
+        width: 20vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card {
+        width: 20vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-cards > .worth-reading-card > video {
+        width: 20vw;
+    }
+    .editorChoice-worthReading > .editor-and-worth > .worth-reading > .worth-reading-second-cards > .worth-reading-second-card {
+        width: 20vw;
     }
 }

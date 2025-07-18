@@ -242,8 +242,109 @@
 
 
 
-    start of the 
-
+    <!-- --------------start of the editor choice and worth reading---------------- -->
+    <div class="editorChoice-worthReading">
+        <div class="editor-and-worth">
+            <div class="editor-choice">
+                <h2>Editor Choice</h2>
+                <div class="editor-choice-cards">
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor1.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis?</a>
+                            <p>Lorem ipsum dolor sit amet consectetur...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor2.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor3.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.</a>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor4.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing...<p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor5.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor6.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat.</a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor7.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor8.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing...</p>
+                        </div>
+                    </div>
+                    <div class="editor-choice-card">
+                        <img src="./assets/images/blog-page/editor-and worth/editor9.jpg" alt="">
+                        <div class="editor-choice-card-info">
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="worth-reading">
+                <h2>Worth Reading</h2>
+                <div class="worth-reading-cards">
+                    <div class="worth-reading-card">
+                        <video autoplay muted loop src="./assets/images/blog-page/editor-and worth/video/worth.mp4"></video>
+                        <div class="worth-reading-card-info">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="worth-reading-second-cards">
+                    <div class="worth-reading-second-card">
+                        <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam!</a>
+                        <small>Nov 17, 2023/ Technology</small>
+                    </div>
+                    <div class="worth-reading-second-card">
+                        <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis.</a>
+                        <small>Jan 21, 2024/ New Product</small>
+                    </div>
+                    <div class="worth-reading-second-card">
+                        <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a>
+                        <small>Mar 30, 2024/ Expo</small>
+                    </div>
+                    <div class="worth-reading-second-card">
+                        <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing.</a>
+                        <small>Dec 13, 2024/ Custom System</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     
