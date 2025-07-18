@@ -656,7 +656,7 @@
     </div>
 
 
-    <!-- ---------------start of the contact form container-------------------- -->
+    <!-- ---------------start of the contact form container------------------ -->
     <div class="contact-form">
         <div class="title-and-icons">
             <div class="contact-title">

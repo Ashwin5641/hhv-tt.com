@@ -937,7 +937,7 @@ body {
 
 
 /* responsive design for the editor choice and worth reading of the mobile and tab screens */
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 500px) {                  
     .editorChoice-worthReading {
         padding: 50px 3vw;
     }
