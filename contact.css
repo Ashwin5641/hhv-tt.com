@@ -230,7 +230,7 @@ body {
     width: 0;
     z-index: -1;
     position: absolute;
-    transition: height .4s ease-in-out, width .4s ease-in-out;
+    transition: height .4s ease-in-out, width .4s ease-in-out;  
     background-color: white;
     border-radius: 8px;
 }
@@ -388,6 +388,24 @@ body {
         width: 100%;
     }
 }
+@media (min-width: 1251px) and (max-width: 1450px) {
+    .getintouch-and-contactform {
+        padding: 50px 3vw;
+    }
+    .getintouch-and-contactform > .getintouch-contactform > .getintouch {
+        width: 100%;
+    }
+    .getintouch-and-contactform > .getintouch-contactform > .getintouch > h1 {
+        font-size: 5vw;
+    }
+    .getintouch-and-contactform > .getintouch-contactform > .page-contactform {
+        width: 100%;
+    }
+    .getintouch-and-contactform > .getintouch-contactform > .page-contactform > .page-form {
+        padding: 20px;
+    }
+}
+
 
 
 
@@ -420,6 +438,11 @@ body {
     }
 }
 @media (min-width: 901px) and (max-width: 1250px) {
+    .page-form-google-map {
+        padding: 50px 3vw;
+    }
+}
+@media (min-width: 1251px) and (max-width: 1450px) {
     .page-form-google-map {
         padding: 50px 3vw;
     }
