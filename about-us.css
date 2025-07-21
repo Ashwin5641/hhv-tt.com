@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+/* 
+----------------styling for the about us page title-----------------
+*/
+
+.page-about-us-title {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #000d27;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.page-about-us-title::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: .3;
+    animation-name: titleMoveBox;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes titleMoveBox {
+    0% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.page-about-us-title::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(./assets/images/index-blog/shape-1.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    opacity: .3;
+    animation-name: titleCircleMove;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes titleCircleMove {
+    0% {
+        transform: translateX(40px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+/*
+----------------styling for the about our company------------------- 
+*/
+.page-about-our-company {
+    padding: 50px 6vw;
+    height: 100%;
+    width: 100%;
+}
+
+.page-about-our-company>div {
+    display: flex;
+    height: auto;
+}
+
+.page-about-our-company>div>.page-about-our-company-img {
+    padding: 50px 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-card {
+    height: 200px;
+    width: 250px;
+    background-color: #000d27;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    z-index: 3;
+    border-radius: 8px;
+    padding: 20px;
+    animation-name: moveCard;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes moveCard {
+    0% {
+        transform: translateY(-30%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-card>p {
+    font-size: 38px;
+    color: gold;
+}
+
+.page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-first {
+    height: 500px;
+    width: 400px;
+    background-image: url(./assets/images/about-us/about-our-company-bg3.jpg);
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+    border-radius: 5px;
+}
+
+.page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-second {
+    height: 250px;
+    width: 250px;
+    background-color: #000d27;
+    background-image: url(./assets/images/about-us/about-our-company-bg2.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.page-about-our-company>div .page-about-our-company-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page-about-our-company>div .page-about-our-company-info>h4 {
+    color: #e63946;
+}
+
+.page-about-our-company>div .page-about-our-company-info>h1 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.page-about-our-company>div .page-about-our-company-info>p {
+    color: gray;
+    font-weight: 500;
+}
+
+.page-about-our-company>div .page-about-our-company-info>ul>li>span {
+    color: #e63946;
+}
+
+.page-about-our-company>div .page-about-our-company-info>ul>li>a {
+    margin-left: 10px;
+    color: #000d27;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients img {
+    height: 65px;
+    width: 200px;
+
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a {
+    color: white;
+    background-color: #e63946;
+    width: fit-content;
+    padding: 12px 30px;
+    position: relative;
+    z-index: 1;
+    transition: background-color .4s ease-in-out;
+    font-weight: bold;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a::before,
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a::after {
+    content: '';
+    height: 0;
+    width: 0;
+    z-index: -1;
+    position: absolute;
+    background-color: #000d27;
+    transition: height .4s ease-in-out, width .4s ease-in-out;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a::before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
+
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a:hover::before,
+.page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-button>a:hover::after {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* responsive design for the page about our company of mobile and tab screens */
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-about-our-company {
+        height: auto;
+        padding: 50px 3vw;
+    }
+
+    .page-about-our-company>div {
+        flex-direction: column;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img {
+        width: 100%;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-second {
+        left: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info {
+        width: 100%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>h1 {
+        font-size: 6vw;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients {
+        height: auto;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .page-about-our-company {
+        height: auto;
+        padding: 50px 5vw;
+    }
+
+    .page-about-our-company>div {
+        flex-direction: column;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img {
+        width: 100%;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-second {
+        left: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info {
+        width: 100%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>h1 {
+        font-size: 6vw;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients {
+        height: auto;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .page-about-our-company {
+        height: auto;
+        padding: 50px 6vw;
+    }
+
+    .page-about-our-company>div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img {
+        width: 70%;
+
+    }
+
+    .page-about-our-company>div .page-about-our-company-info {
+        width: 100%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>h1 {
+        font-size: 6vw;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients {
+        height: auto;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1250px) {
+    .page-about-our-company {
+        height: auto;
+        padding: 50px 2.5vw;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img {
+        width: 50%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info {
+        width: 50%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>h1 {
+        font-size: 4vw;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients {
+        height: auto;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-second {
+        left: 65%;
+        height: 150px;
+        width: 150px;
+    }
+}
+@media (min-width: 1251px) and (max-width: 1450px) {
+    .page-about-our-company {
+        height: auto;
+        padding: 50px 3vw;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img {
+        width: 50%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info {
+        width: 50%;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>h1 {
+        font-size: 3vw;
+    }
+
+    .page-about-our-company>div .page-about-our-company-info>.page-about-our-company-info-icons>.page-about-our-company-info-clients {
+        height: auto;
+    }
+
+    .page-about-our-company>div>.page-about-our-company-img>.page-about-our-company-img-second {
+        left: 65%;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* 
+---------------styling for the marquee text for hhv thermal technologies----------------- 
+*/
+.marquee-wrapper {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.marquee-text {
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.marquee-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #000d27;
+    opacity: 0.7;
+    display: inline-block;
+}
+.marquee-left {
+    top: 0;
+    transform: rotateZ(-5deg);
+    animation: marquee-left 8s linear infinite;
+}
+
+.marquee-right {
+    bottom: 0;
+    transform: rotateZ(5deg);
+    animation: marquee-right 8s linear infinite;
+}
+
+@keyframes marquee-left {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes marquee-right {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
