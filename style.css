@@ -2445,9 +2445,11 @@ footer > .links-and-icons > .useful-links > ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-weight: bold;
 }
 footer > .links-and-icons > .useful-links > ul > li > a {
     color: #000d27;
+    font-weight: normal;
 }
 footer > .links-and-icons > .product-links {
     width: 25%;
@@ -2457,18 +2459,24 @@ footer > .links-and-icons > .product-links > ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-weight: bold;
+}
+footer > .links-and-icons > .product-links > ul > li {
+    font-weight: normal;
 }
 footer > .links-and-icons > .contact-us {
     width: 25%;
 }
 footer > .links-and-icons > .contact-us > ul {
     color: #e63946;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 footer > .links-and-icons > .contact-us > ul > li > ul {
     color: #000d27;
+    font-weight: normal;
     display: flex;
     gap: 20px;
 }

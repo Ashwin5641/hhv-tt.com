@@ -497,3 +497,17 @@ body {
         right: 100%;
     }
 }
+
+
+/*
+-----------------styling for the why choose us and our foundations------------------- 
+*/
+
+.whyChooseUs-and-ourFoundations {
+    padding: 50px 6vw;
+}
+.whyChooseUs-and-ourFoundations > div {
+    display: flex;
+    gap: 20px;
+    
+}

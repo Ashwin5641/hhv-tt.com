@@ -116,9 +116,14 @@
 
 
     <!-- --------------start of the why choose us--------------- -->
-    <div class="why-choose-us">
+    <div class="whyChooseUs-and-ourFoundations">
         <div>
-            
+            <div class="why-choose-us">
+                <h4>Why Choose Us</h4>
+            </div>
+            <div class="our-foundations">
+
+            </div>
         </div>
     </div>
 
