@@ -163,7 +163,6 @@
                             <h3>Our Vision</h3>
                             <p class="hover-visible">Innovating reliable vacuum and thermal systems globally, responsibly.</p>
                         </div>
-                        <span class="box-shape"></span>
                     </div>
                     <div class="our-foundations-card our-foundations-card3">
                         <span class="bg-shape"></span>

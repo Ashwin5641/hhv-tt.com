@@ -20,7 +20,7 @@
                 </ul>
             </li>
             <li><a href="./custom-systems.php">Custom Systems</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="./services.php">Services</a></li>
             <li><a href="./about-us.php">About Us</a></li>
             <li><a href="./blog.php">Blog</a></li>
             <li><a href="#">Careers</a></li>
@@ -66,7 +66,7 @@
                 </ul>
             </div>
             <li><a href="./custom-systems.php">Custom Systems</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="./products.php">Services</a></li>
             <li><a href="./about-us.php">About Us</a></li>
             <li><a href="./blog.php">Blog</a></li>
             <li><a href="#">Careers</a></li>
