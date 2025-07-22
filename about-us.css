@@ -511,3 +511,356 @@ body {
     gap: 20px;
     
 }
+.whyChooseUs-and-ourFoundations > div > .why-choose-us {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > h4 {
+    color: #e63946;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+    font-weight: 700;
+    font-size: 3vw;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > p {
+    color: gray;
+    font-weight: 500;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > .why-choose-us-icons {
+    display: flex;
+    gap: 20px;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > .why-choose-us-icons > .why-choose-us-icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px 10px 0;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > .why-choose-us-icons > .why-choose-us-icon .why-choose-us-icon-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.whyChooseUs-and-ourFoundations > div > .why-choose-us > .why-choose-us-icons > .why-choose-us-icon .why-choose-us-icon-div > span > i {
+    color: #e63946;
+    font-weight: 900;
+    font-size: 42px;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations {
+    width: 50%;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card {
+    height: 250px;
+    width: 300px;
+    background-color: #000d27;
+    border-radius: 10px;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card1 {
+    position: relative;
+    z-index: 2;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card1 > div {
+    z-index: 3;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card1 > div > span > i {
+    font-size: 42px;
+    color: #e63946;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card1 > div > p {
+    text-align: center;
+    font-weight: bold;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card1::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(./assets/images/about-us/our-foundations.jpg);
+    background-size: 100% 100%;
+    z-index: 0;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card1::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    opacity: .6;
+    z-index: 1;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2::before {
+    background-image: url(./assets/images/about-us/our-foundation-card2.jpg);
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3::before {
+    background-image: url(./assets/images/about-us/our-foundation-card3.jpg);
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4::before {
+    background-image: url(./assets/images/about-us/our-foundation-card4.jpg);
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4 {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2 > .bg-shape,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3 > .bg-shape,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4 > .bg-shape {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background-image: url('./assets/images/about-us/shape-11.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  animation-name: circleRotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
+}
+@keyframes circleRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2:hover .bg-shape,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3:hover .bg-shape,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4:hover .bg-shape {
+    display: none;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2 > div,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3 > div,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4 > div {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2::before,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3::before,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 0;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2::after,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3::after,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2:hover::before,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3:hover::before,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4:hover::before {
+  opacity: 1;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2:hover::after,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3:hover::after,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4:hover::after {
+  opacity: 0.6;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2:hover .hover-visible,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3:hover .hover-visible,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4:hover .hover-visible {
+  display: block;
+}
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2 > div > p,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3 > div > p,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4 > div > p {
+    text-align: center;
+    display: none;
+} 
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card2 > div > span > i,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card3 > div > span,
+.whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards > .our-foundations-card4 > div > span > i {
+    font-size: 42px;
+    color: #e63946;
+} 
+
+
+
+
+
+/* responsive design for the why choose us and our foundations of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 400px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 3vw;
+    }
+    .whyChooseUs-and-ourFoundations > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 90%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 7vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > .why-choose-us-icons {
+        flex-direction: column;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 100%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards {
+        justify-content: center;
+    }
+}
+@media (min-width: 401px) and (max-width: 600px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 5vw;
+    }
+    .whyChooseUs-and-ourFoundations > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 100%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 7vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > .why-choose-us-icons {
+        flex-direction: column;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 100%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations > .our-foundations-cards {
+        justify-content: center;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 5vw;
+    }
+    .whyChooseUs-and-ourFoundations > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 100%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 7vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 100%;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 5vw;
+        display: flex;
+        justify-content: center;
+    }
+    .whyChooseUs-and-ourFoundations > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 90%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 5vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 90%;
+    }
+}
+@media (min-width: 901px) and (max-width: 1150px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 6vw;
+        display: flex;
+        justify-content: center;
+    }
+    .whyChooseUs-and-ourFoundations > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 90%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 5vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 90%;
+    }
+}
+@media (min-width: 1151px) and (max-width: 1300px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 3vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 40%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 3vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 60%;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1450px) {
+    .whyChooseUs-and-ourFoundations {
+        padding: 50px 3vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us {
+        width: 45%;
+    }
+    .whyChooseUs-and-ourFoundations > div > .why-choose-us > h1 {
+        font-size: 3vw;
+    }
+    .whyChooseUs-and-ourFoundations > div > .our-foundations {
+        width: 55%;
+    }
+}

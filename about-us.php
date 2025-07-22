@@ -40,11 +40,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
-    <!-- --------------link for the font aweseome----------------------->
+    <!-- --------------link for the font aweseome------------------ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- ---------------link for the google icons------------------ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=target" />
+
+    
     <!-- --------------link for the google icons--------------------- -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=strategy" />
 
     <!-- ---------link for the AOS animations on scroll-------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -120,13 +124,67 @@
         <div>
             <div class="why-choose-us">
                 <h4>Why Choose Us</h4>
+                <h1>Innovating with precision thermal and vacuum solutions.</h1>
+                <p>HHV is the trusted partner for leading aerospace, defense, and research organizations worldwide.</p>
+                <div class="why-choose-us-icons">
+                    <div class="why-choose-us-icon">
+                        <div class="why-choose-us-icon-div">
+                            <span><i class="fa-solid fa-earth-asia"></i></span>
+                            <h3>Global Presence</h3>
+                        </div>
+                        <div class="why-choose-us-icon-info">
+                            <p>Trusted by 1,000+ clients in 40+ countries.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-icon">
+                        <div class="why-choose-us-icon-div">
+                            <span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                            <h3>Expert Engineering</h3>
+                        </div>
+                        <div class="why-choose-us-icon-info">
+                            <p>1,200+ engineers powering precision systems.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="our-foundations">
-
+                <div class="our-foundations-cards">
+                    <div class="our-foundations-card our-foundations-card1">
+                        <div>
+                            <span><i class="fa-solid fa-bullseye"></i></span>
+                            <h3>Our Mission</h3>
+                            <p>Innovating reliable vacuum and thermal systems globally, responsibly.</p>
+                        </div>
+                    </div>
+                    <div class="our-foundations-card our-foundations-card2">
+                        <span class="bg-shape"></span>
+                        <div class="visible-before">
+                            <span><i class="fa-regular fa-eye"></i></span>
+                            <h3>Our Vision</h3>
+                            <p class="hover-visible">Innovating reliable vacuum and thermal systems globally, responsibly.</p>
+                        </div>
+                        <span class="box-shape"></span>
+                    </div>
+                    <div class="our-foundations-card our-foundations-card3">
+                        <span class="bg-shape"></span>
+                         <div class="visible-before">
+                            <span class="material-symbols-outlined">strategy</span>
+                            <h3>Our Strategy</h3>
+                            <p class="hover-visible">Innovating reliable vacuum and thermal systems globally, responsibly.</p>
+                        </div>
+                    </div>
+                    <div class="our-foundations-card our-foundations-card4">
+                        <span class="bg-shape"></span>
+                         <div class="visible-before">
+                            <span><i class="fa-solid fa-book-open-reader"></i></span>
+                            <h3>Our Philosophy</h3>
+                            <p class="hover-visible">Innovating reliable vacuum and thermal systems globally, responsibly.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 
 
 
