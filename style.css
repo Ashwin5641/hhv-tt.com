@@ -2437,6 +2437,10 @@ footer > .links-and-icons > .logo > ul > li > a {
 footer > .links-and-icons > .logo > ul > li > a:hover {
     color: #e63946;
 }
+footer > .links-and-icons > .logo > ul > li > a > i:hover {
+    transform: translateY(-5px);
+    transition: transform .3s ease-in-out;
+}
 footer > .links-and-icons > .useful-links {
     width: fit-content;
 }

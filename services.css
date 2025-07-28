@@ -100,3 +100,43 @@ body {
         transform: translateX(0px);
     }
 }
+
+
+/* 
+----------------styling for the main section----------------------
+*/
+.main-section {
+    padding: 50px 6vw;
+    display: flex;
+    justify-content: center;
+}
+.main-section > div {
+    width: 80%;
+}
+.main-section > div > p {
+    text-align: center;
+}
+.cards-section {
+    padding: 50px 6vw;
+    display: flex;
+    justify-content: center;
+}
+.page-service-cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.page-service-cards > .page-service-card {
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    box-shadow: -4px 0 10px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-service-cards > .page-service-card > h3 {
+    color: #e63946;
+}
