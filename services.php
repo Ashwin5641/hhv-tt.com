@@ -69,34 +69,50 @@
 
     <!-- ------------start fo the page spares and services title--------------- -->
     <div class="main-section">
-        <div>
-            <p>At HHVTT, we take great pride in our role as a leading specialist in plant engineering. Our After Sales services are meticulously designed to ensure the uninterrupted performance of your furnace, eliminating unexpected downtime and disruptions. With a globally equipped service network, we deliver reliable support, anytime, anywhere. </p>
+        <div class="main-content">
+            <!-- Left text -->
+            <div class="main-text">
+                <h2>Excellence in After Sales Service</h2>
+                <p>
+                    At HHVTT, we take great pride in our role as a leading specialist in plant engineering.
+                    Our After Sales services are meticulously designed to ensure the uninterrupted performance
+                    of your furnace, eliminating unexpected downtime and disruptions. With a globally equipped
+                    service network, we deliver reliable support, anytime, anywhere.
+                </p>
+            </div>
+
+            <!-- Right image -->
+            <div class="main-image">
+                <img src="./assets/images/services-page/service.jpg" alt="HHVTT Services">
+            </div>
         </div>
-    </div>
-    <div class="cards-section">
-        <div class="page-service-cards">
-            <div class="page-service-card">
+
+        <!-- Service cards inside main section -->
+        <div class="service-cards">
+            <div class="service-card">
                 <h3>Proactive Maintenance</h3>
                 <p>Trust our experience to maintain your furnace proactively—avoiding costly breakdowns and improving reliability.</p>
             </div>
-            <div class="page-service-card">
+            <div class="service-card">
                 <h3>Furnace Relocation</h3>
                 <p>We ensure a seamless relocation experience for your furnace with minimal disruption to your operations.</p>
             </div>
-            <div class="page-service-card">
+            <div class="service-card">
                 <h3>Annual Maintenance Contracts</h3>
                 <p>Choose from our worry-free AMC plans for consistent, year-round maintenance and peak furnace performance.</p>
             </div>
-            <div class="page-service-card">
+            <div class="service-card">
                 <h3>Spares Supply</h3>
                 <p>We supply high-quality, genuine spare parts to ensure your systems continue to perform optimally.</p>
             </div>
-            <div class="page-service-card">
+            <div class="service-card">
                 <h3>Hot Zone & Component Replacement</h3>
                 <p>We replace hot zones and critical parts with precision to minimize downtime and ensure long-term performance.</p>
             </div>
         </div>
     </div>
+
+
 
 
     <!-- -------------start of the footer section------------ -->
