@@ -70,7 +70,6 @@
     <!-- ------------start fo the page spares and services title--------------- -->
     <div class="main-section">
         <div class="main-content">
-            <!-- Left text -->
             <div class="main-text">
                 <h2>Excellence in After Sales Service</h2>
                 <p>
@@ -81,7 +80,6 @@
                 </p>
             </div>
 
-            <!-- Right image -->
             <div class="main-image">
                 <img src="./assets/images/services-page/service.jpg" alt="HHVTT Services">
             </div>
